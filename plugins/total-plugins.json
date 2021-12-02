@@ -1,0 +1,27 @@
+[
+  {
+    "name": "rubick-doutu",
+    "pluginName": "斗图",
+    "description": "斗图表情搜索",
+    "author": "vst",
+    "main": "index.html",
+    "logo": "https://static.91jkys.com/activity/img/2adb63c2e5d54dc1b26001958fcdb044.jpg",
+    "version": "0.0.1",
+    "preload":"preload.js",
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "dt",
+        "explain": "斗图",
+        "cmds":[
+          "doutu",
+          "斗图",
+          {
+            "type": "over",
+            "label": "斗图"
+          }
+        ]
+      }
+    ]
+  }
+]
