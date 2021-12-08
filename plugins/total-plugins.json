@@ -23,5 +23,14 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-system-mac-touchbar",
+    "pluginName": "mac touchbar 内存管理工具",
+    "version": "1.0.0",
+    "description": "轻松通过 touchbar 管理内存",
+    "entry": "index.js",
+    "logo": "https://static.91jkys.com/activity/img/2adb63c2e5d54dc1b26001958fcdb044.jpg",
+    "pluginType": "system"
   }
 ]
