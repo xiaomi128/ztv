@@ -10,10 +10,12 @@
     }
   ],
   "recommend": [
-    "rubick-doutu"
+    "rubick-doutu",
+    "rubick-system-super-panel"
   ],
   "new": [
     "rubick-doutu",
-    "rubick-system-mac-touchbar"
+    "rubick-system-mac-touchbar",
+    "rubick-system-super-panel"
   ]
 }

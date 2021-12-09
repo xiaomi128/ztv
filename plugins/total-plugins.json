@@ -32,5 +32,26 @@
     "entry": "index.js",
     "logo": "https://static.91jkys.com/upload/202112/08/5bac90649c5343cabb63930b131cf8e6.png",
     "pluginType": "system"
+  },
+  {
+    "name": "rubick-system-super-panel",
+    "pluginName": "超级面板",
+    "version": "1.0.2",
+    "description": "超级面板，长按右击可唤起",
+    "main": "index.html",
+    "entry": "main.js",
+    "preload": "preload.js",
+    "logo": "https://static.91jkys.com/upload/202112/09/d07325136a5e4ff89913650678c1ec9f.png",
+    "pluginType": "system",
+    "features": [
+      {
+        "code": "setting",
+        "explain": "设置超级面板",
+        "cmds": [
+          "设置超级面板",
+          "超级面板"
+        ]
+      }
+    ]
   }
 ]
