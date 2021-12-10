@@ -53,5 +53,43 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-qrcode",
+    "main": "index.html",
+    "logo": "https://static.91jkys.com/upload/202112/09/7c16a0484bbb44a0b7392180a4221154.png",
+    "preload": "preload.js",
+    "description": "二维码生成及解码",
+    "author": "muwoo",
+    "version": "0.0.1",
+    "pluginType": "ui",
+    "pluginName": "二维码生成及解码",
+    "features": [
+      {
+        "code": "QRCode",
+        "explain": "二维码生成及解码",
+        "cmds": [
+          "QRCode",
+          "二维码",
+          {
+            "type": "regex",
+            "match": "/^https?:\\/\\/(?:(?:(?:25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]\\d|\\d)(?:\\.(?:25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]\\d|\\d)){3})|(?:(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)(?:\\.(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)*(?:\\.(?:[a-z\\u00a1-\\uffff]{2,}))\\.?)(?::\\d{2,5})?(?:[/?#][^\\s\"]*)?$/i",
+            "label": "生成二维码"
+          },
+          {
+            "type": "img",
+            "label": "解码二维码"
+          },
+          {
+            "type": "window",
+            "platform": ["win32", "darwin"],
+            "match": {
+              "app": ["chrome.exe", "firefox.exe", "MicrosoftEdge.exe", "iexplore.exe", "opera.exe", "brave.exe", "msedge.exe", "Google Chrome.app", "Safari.app", "Opera.app", "Vivaldi.app", "Brave Browser.app", "Microsoft Edge.app"]
+            },
+            "label": "网页二维码"
+          }
+        ]
+      }
+    ]
   }
 ]
