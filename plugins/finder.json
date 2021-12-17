@@ -18,6 +18,7 @@
     "rubick-doutu",
     "rubick-qrcode",
     "rubick-system-mac-touchbar",
-    "rubick-system-super-panel"
+    "rubick-system-super-panel",
+    "rubick-tpl-bookmarks-search"
   ]
 }

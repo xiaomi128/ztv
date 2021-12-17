@@ -92,5 +92,26 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-tpl-bookmarks-search",
+    "version": "0.0.1",
+    "preload": "preload.js",
+    "logo": "https://static.91jkys.com/attachment/kaer-admin/44205884647b4a5f8dfe7ef9daee1f62b417b2d539a8b85cf64602f170be2499.png",
+    "platform": [
+      "win32",
+      "darwin"
+    ],
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "bookmarks-search",
+        "explain": "Chrome、Edge 书签搜索",
+        "cmds": [
+          "bookmarks",
+          "书签"
+        ]
+      }
+    ]
   }
 ]
