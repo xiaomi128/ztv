@@ -115,5 +115,23 @@
         ]
       }
     ]
+  },
+  {
+    "pluginName": "Ctool",
+    "description": "Ctool 程序开发常用工具",
+    "author": "baiy",
+    "homepage": "https://github.com/baiy/Ctool",
+    "main": "tool.html",
+    "version": "1.9.4",
+    "name": "rubick-ctool",
+    "pluginType": "ui",
+    "logo": "https://static.91jkys.com/attachment/kaer-admin/8fafac108cfc486180dedc136df20b76707add249f639eec70c10a25cd129605.png",
+    "pluginSetting": {
+      "single": false
+    },
+    "development": {
+      "main": "http://localhost:8081/tool.html"
+    },
+    "features": [{"code":"ctool","explain":"程序开发常用工具","cmds":["ctool","程序开发常用工具"]},{"code":"ctool-hash","explain":"哈希(hash)","cmds":["hash","哈希(hash)","ctool-hash","md5","sha1","sha256","sha512","sm3"]},{"code":"ctool-encrypt","explain":"加密/解密","cmds":["encrypt","加密/解密","ctool-encrypt","AES","DES","RC4","Rabbit","TripleDes","sm2"]},{"code":"ctool-sign","explain":"签名/验签","cmds":["sign","签名/验签","ctool-sign","签名","验签","rsa"]},{"code":"ctool-base64","explain":"BASE64编码","cmds":["base64","BASE64编码","ctool-base64"]},{"code":"ctool-json","explain":"JSON工具","cmds":["json","JSON工具","ctool-json"]},{"code":"ctool-url","explain":"URL编码","cmds":["url","URL编码","ctool-url"]},{"code":"ctool-timestamp","explain":"时间戳","cmds":["timestamp","时间戳","ctool-timestamp",{"type":"regex","match":"/(^\\d{10}(?:\\d{3})?$)|(^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?$)/i","minLength":10,"maxLength":25,"label":"时间戳"}]},{"code":"ctool-qrCode","explain":"二维码","cmds":["qrCode","二维码","ctool-qrCode"]},{"code":"ctool-qrCode-generate","explain":"二维码 - 生成","cmds":[{"type":"regex","match":"/[a-zA-z]+://[^\\s]*/i","minLength":8,"label":"二维码 - 生成"}]},{"code":"ctool-qrCode-reader","explain":"二维码 - 解析","cmds":[{"type":"regex","match":"/[a-zA-z]+://[^\\s]*/i","minLength":8,"label":"二维码 - 解析"}]},{"code":"ctool-barcode","explain":"条形码","cmds":["barcode","条形码","ctool-barcode"]},{"code":"ctool-pinyin","explain":"汉字转拼音","cmds":["pinyin","汉字转拼音","ctool-pinyin"]},{"code":"ctool-ip","explain":"IP地址查询","cmds":["ip","IP地址查询","ctool-ip",{"type":"regex","match":"/\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}/i","minLength":7,"maxLength":15,"label":"IP地址查询"}]},{"code":"ctool-code","explain":"代码格式化","cmds":["code","代码格式化","ctool-code"]},{"code":"ctool-unicode","explain":"Unicode","cmds":["unicode","Unicode","ctool-unicode",{"type":"regex","match":"/\\\\u[0-9a-f]{4}/i","minLength":6,"label":"Unicode"}]},{"code":"ctool-decimalConvert","explain":"进制转换","cmds":["decimalConvert","进制转换","ctool-decimalConvert"]},{"code":"ctool-regex","explain":"正则表达式","cmds":["regex","正则表达式","ctool-regex"]},{"code":"ctool-randomString","explain":"随机字符生成","cmds":["randomString","随机字符生成","ctool-randomString"]},{"code":"ctool-serializeConversion","explain":"序列化转换","cmds":["serializeConversion","序列化转换","ctool-serializeConversion"]},{"code":"ctool-diffs","explain":"文本比对","cmds":["diffs","文本比对","ctool-diffs"]},{"code":"ctool-crontab","explain":"crontab","cmds":["crontab","ctool-crontab"]},{"code":"ctool-websocket","explain":"websocket","cmds":["websocket","ctool-websocket"]},{"code":"ctool-unit","explain":"单位换算","cmds":["unit","单位换算","ctool-unit"]},{"code":"ctool-time","explain":"时间计算器","cmds":["time","时间计算器","ctool-time"]},{"code":"ctool-uuid","explain":"UUID生成","cmds":["uuid","UUID生成","ctool-uuid"]},{"code":"ctool-jsonToObject","explain":"JSON转实体类","cmds":["jsonToObject","JSON转实体类","ctool-jsonToObject"]},{"code":"ctool-ascii","explain":"ASCII","cmds":["ascii","ASCII","ctool-ascii"]},{"code":"ctool-variableConversion","explain":"变量名","cmds":["variableConversion","变量名","ctool-variableConversion"]},{"code":"ctool-jwt","explain":"JWT解码","cmds":["jwt","JWT解码","ctool-jwt","jwtDecode"]},{"code":"ctool-hexString","explain":"Hex/String","cmds":["hexString","Hex/String","ctool-hexString","hex to string","string to hex","十六进制转字符串","字符串转十六机制"]},{"code":"ctool-text","explain":"文本处理","cmds":["text","文本处理","ctool-text","大小写转换","中英文标点转换","简繁转换","字符替换","字符统计","行去重","添加行号","行排序","过滤行首尾不可见字符","过滤空行"]},{"code":"ctool-html","explain":"Html编码","cmds":["html","Html编码","ctool-html"]},{"code":"ctool-binary","explain":"原码/反码/补码","cmds":["binary","原码/反码/补码","ctool-binary","原码","补码","反码"]},{"code":"ctool-armConverter","explain":"ARM/HEX","cmds":["armConverter","ARM/HEX","ctool-armConverter","ARM","HEX"]}]
   }
 ]

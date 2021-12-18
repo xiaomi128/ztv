@@ -11,12 +11,14 @@
   ],
   "recommend": [
     "rubick-doutu",
+    "rubick-ctool",
     "rubick-qrcode",
     "rubick-system-super-panel"
   ],
   "new": [
     "rubick-doutu",
     "rubick-qrcode",
+    "rubick-ctool",
     "rubick-system-mac-touchbar",
     "rubick-system-super-panel",
     "rubick-tpl-bookmarks-search"
