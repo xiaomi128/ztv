@@ -16,6 +16,7 @@
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-tpl-calc",
     "rubick-doutu",
     "rubick-qrcode",
     "rubick-ctool",
