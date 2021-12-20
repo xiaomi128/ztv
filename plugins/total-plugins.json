@@ -37,7 +37,7 @@
   {
     "name": "rubick-system-super-panel",
     "pluginName": "超级面板",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "超级面板，长按右击可唤起",
     "main": "index.html",
     "entry": "main.js",
