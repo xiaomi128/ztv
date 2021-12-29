@@ -18,6 +18,7 @@
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-ui-plugin-mverything",
     "rubick-ui-plugin-saladic",
     "rubick-ui-webpage-open",
     "rubick-tpl-calc",
