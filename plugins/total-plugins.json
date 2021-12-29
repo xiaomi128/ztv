@@ -207,5 +207,44 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-ui-plugin-mverything",
+    "pluginName": "Mverything",
+    "author": "lanyuanxiaoyao",
+    "homepage": "https://gitee.com/rubick-center/rubick-ui-plugin-mverything/raw/master/README.md",
+    "description": "Mac 上的 Everything",
+    "version": "0.1.6",
+    "logo": "https://pica.zhimg.com/80/v2-f1a705a90eaac24af98093a1086e1435_720w.png",
+    "main": "index.html",
+    "preload": "preload.js",
+    "platform": [
+      "darwin"
+    ],
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "find",
+        "explain": "查找 Mac 上的文件",
+        "cmds": [
+          "find",
+          "查找",
+          {
+            "type": "files",
+            "label": "在此文件夹中搜索",
+            "fileType": "directory",
+            "minNum": 1,
+            "maxNum": 1
+          },
+          {
+            "type": "window",
+            "label": "在此文件夹中搜索",
+            "match": {
+              "bundleId": "com.apple.finder"
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
