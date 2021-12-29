@@ -181,5 +181,31 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-ui-plugin-saladic",
+    "pluginName": "沙拉查词",
+    "description": "沙拉查词-聚合词典专业查词翻译",
+    "main": "ext-saladic/utools.html",
+    "author": "anrgct",
+    "version": "0.2.9",
+    "logo": "https://pica.zhimg.com/80/v2-a07b9200b07c57e4187fd5ad69699733_1440w.png",
+    "preload": "../preload.js",
+    "homepage": "https://gitee.com/rubick-center/rubick-ui-plugin-saladic/raw/master/README.md",
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "沙拉查词",
+        "explain": "沙拉查词",
+        "cmds": [
+          "沙拉查词",
+          "saladict",
+          {
+            "type": "over",
+            "label": "沙拉查词"
+          }
+        ]
+      }
+    ]
   }
 ]

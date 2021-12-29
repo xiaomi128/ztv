@@ -10,12 +10,14 @@
   ],
   "recommend": [
     "rubick-ui-webpage-open",
+    "rubick-ui-plugin-saladic",
     "rubick-doutu",
     "rubick-ctool",
     "rubick-qrcode",
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-ui-plugin-saladic",
     "rubick-ui-webpage-open",
     "rubick-tpl-calc",
     "rubick-doutu",
