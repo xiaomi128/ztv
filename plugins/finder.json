@@ -10,12 +10,14 @@
     }
   ],
   "recommend": [
+    "rubick-ui-webpage-open",
     "rubick-doutu",
     "rubick-ctool",
     "rubick-qrcode",
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-ui-webpage-open",
     "rubick-tpl-calc",
     "rubick-doutu",
     "rubick-qrcode",

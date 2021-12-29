@@ -160,5 +160,26 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-ui-webpage-open",
+    "pluginName": "网页快开",
+    "description": "快速打开搜索网站",
+    "author": "muwoo",
+    "main": "index.html",
+    "logo": "https://pic1.zhimg.com/80/v2-fa7fdca30c091f589d0addd779941ead_720w.png",
+    "version": "0.0.1",
+    "preload":"preload.js",
+    "homePage": "https://gitee.com/rubick-center/rubick-ui-webpage-open/raw/master/README.md",
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "setting",
+        "explain": "网页快开设置",
+        "cmds":[
+          "网页快开设置"
+        ]
+      }
+    ]
   }
 ]
