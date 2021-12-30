@@ -246,5 +246,29 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-ui-plugin-wallhaven",
+    "pluginName": "最美壁纸",
+    "description": "在线查找壁纸、锁屏图片，自动更换壁纸、锁屏图片的插件。",
+    "main": "index.html",
+    "version": "0.2.0",
+    "preload": "preload.js",
+    "author": "rockxsj",
+    "homePage": "https://gitee.com/rubick-center/rubick-ui-plugin-wallhaven/raw/master/README.md",
+    "logo": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4df8587e3333492c8ab5f92d0d0783f8~tplv-k3u1fbpfcp-watermark.image",
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "wallpaper",
+        "explain": "壁纸插件",
+        "cmds": [
+          "wallpaper",
+          "wp",
+          "壁纸",
+          "bg"
+        ]
+      }
+    ]
   }
 ]
