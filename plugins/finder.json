@@ -9,6 +9,7 @@
     }
   ],
   "recommend": [
+    "rubick-game-tank",
     "rubick-ui-webpage-open",
     "rubick-ui-plugin-saladic",
     "rubick-ui-plugin-mverything",
@@ -18,6 +19,7 @@
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-game-tank",
     "rubick-ui-plugin-mverything",
     "rubick-ui-plugin-saladic",
     "rubick-ui-webpage-open",
