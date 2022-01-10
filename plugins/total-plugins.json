@@ -291,5 +291,27 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-ui-plugin-demo-localhost",
+    "pluginName": "插件demo",
+    "description": "rubick ui 插件demo",
+    "author": "muwoo",
+    "main": "index.html",
+    "logo": "https://static.91jkys.com/attachment/kaer-admin/476bbe78674441bc8c904f6b14e450c8ba71d16f9ffe3e04b75bbd5760c8a738.png",
+    "version": "0.0.1",
+    "preload":"preload.js",
+    "homePage": "https://gitee.com/rubick-center/rubick-ui-plugin-demo/raw/master/README.md",
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "index",
+        "explain": "测试插件",
+        "cmds":[
+          "demo",
+          "测试"
+        ]
+      }
+    ]
   }
 ]

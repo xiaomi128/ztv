@@ -9,6 +9,7 @@
     }
   ],
   "recommend": [
+    "rubick-ui-plugin-demo-localhost",
     "rubick-game-tank",
     "rubick-ui-webpage-open",
     "rubick-ui-plugin-saladic",
