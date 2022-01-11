@@ -9,7 +9,7 @@
     }
   ],
   "recommend": [
-    "rubick-ui-plugin-demo-localhost",
+    "rubick-system-color-picker",
     "rubick-game-tank",
     "rubick-ui-webpage-open",
     "rubick-ui-plugin-saladic",
@@ -20,6 +20,7 @@
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-system-color-picker",
     "rubick-game-tank",
     "rubick-ui-plugin-mverything",
     "rubick-ui-plugin-saladic",

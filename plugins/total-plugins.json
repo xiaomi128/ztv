@@ -313,5 +313,27 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-system-color-picker",
+    "pluginName": "取色器",
+    "version": "1.0.0",
+    "description": "取色器",
+    "main": "index.html",
+    "preload": "preload.js",
+    "logo": "https://pic1.zhimg.com/80/v2-5f1810a71af6eefcd77edbbf07ea1cc7_720w.png",
+    "homePage": "https://gitee.com/rubick-center/rubick-system-color-picker/raw/master/README.md",
+    "pluginType": "ui",
+    "features": [
+      {
+        "code": "colorpicker",
+        "explain": "取色器",
+        "cmds": [
+          "colorpicker",
+          "qs",
+          "取色"
+        ]
+      }
+    ]
   }
 ]
