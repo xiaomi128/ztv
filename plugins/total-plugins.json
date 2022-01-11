@@ -317,7 +317,7 @@
   {
     "name": "rubick-system-color-picker",
     "pluginName": "取色器",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "取色器",
     "main": "index.html",
     "preload": "preload.js",
