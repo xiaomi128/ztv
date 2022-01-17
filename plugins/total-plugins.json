@@ -335,5 +335,27 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-ui-clipboard",
+    "pluginName": "超级剪切板",
+    "version": "1.0.1",
+    "description": "及时随地保存内容",
+    "main": "index.html",
+    "entry": "main.js",
+    "preload": "preload.js",
+    "logo": "https://pic1.zhimg.com/80/v2-8808dd420ee9804ad588aaee01ba9398_720w.png",
+    "pluginType": "system",
+    "features": [
+      {
+        "code": "record",
+        "explain": "超级剪切板",
+        "cmds": [
+          "超级剪切板",
+          "clipboard",
+          "jqb"
+        ]
+      }
+    ]
   }
 ]

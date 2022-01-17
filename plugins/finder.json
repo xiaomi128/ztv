@@ -9,6 +9,7 @@
     }
   ],
   "recommend": [
+    "rubick-ui-clipboard",
     "rubick-system-color-picker",
     "rubick-game-tank",
     "rubick-ui-webpage-open",
@@ -20,6 +21,7 @@
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-ui-clipboard",
     "rubick-system-color-picker",
     "rubick-game-tank",
     "rubick-ui-plugin-mverything",
