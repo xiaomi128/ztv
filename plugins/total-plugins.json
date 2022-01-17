@@ -346,7 +346,7 @@
     "preload": "preload.js",
     "logo": "https://pic1.zhimg.com/80/v2-8808dd420ee9804ad588aaee01ba9398_720w.png",
     "pluginType": "system",
-    "homePage": "https://gitee.com/rubick-center/rrubick-ui-clipboard/raw/master/README.md",
+    "homePage": "https://gitee.com/rubick-center/rubick-ui-clipboard/raw/master/README.md",
     "features": [
       {
         "code": "record",
