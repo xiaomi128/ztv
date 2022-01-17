@@ -339,7 +339,7 @@
   {
     "name": "rubick-ui-clipboard",
     "pluginName": "超级剪切板",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "及时随地保存内容",
     "main": "index.html",
     "entry": "main.js",
