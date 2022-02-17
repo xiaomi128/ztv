@@ -358,5 +358,29 @@
         ]
       }
     ]
+  },
+  {
+    "name": "rubick-hoppscotch-app",
+    "pluginName": "Hoppscotch",
+    "description": "Http/WebSocket/GraphQL/Api 请求调试工具，帮助你更快地创建请求，节省宝贵的开发时间",
+    "author": "baiy",
+    "main": "index.html",
+    "version": "2.2.0",
+    "logo": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/927f6c18cc664e0e841293a6cff918e0~tplv-k3u1fbpfcp-watermark.image",
+    "features": [
+      {
+        "code": "Hoppscotch",
+        "explain": "[Http/WebSocket/GraphQL/Api] 调试工具",
+        "cmds": [
+          "http",
+          "get",
+          "post",
+          "api",
+          "websocket",
+          "graphql"
+        ]
+      }
+    ],
+    "pluginType": "ui"
   }
 ]
