@@ -366,6 +366,7 @@
     "author": "baiy",
     "main": "index.html",
     "version": "2.2.0",
+    "homePage": "https://gitee.com/rubick-center/rubick-hoppscotch/raw/master/README.md",
     "logo": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/927f6c18cc664e0e841293a6cff918e0~tplv-k3u1fbpfcp-watermark.image",
     "features": [
       {
