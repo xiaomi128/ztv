@@ -383,5 +383,26 @@
       }
     ],
     "pluginType": "ui"
+  },
+  {
+    "name": "rubick-host",
+    "preload": "preload/preload.js",
+    "main": "index.html",
+    "logo": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ebbbf8a1d6834b1dabfe6de86057dc1d~tplv-k3u1fbpfcp-watermark.image",
+    "features": [
+      {
+        "code": "hosts",
+        "explain": "hosts切换",
+        "cmds": [
+          "hosts"
+        ]
+      }
+    ],
+    "pluginName": "hosts切换",
+    "description": "管理你的hosts文件",
+    "author": "muwoo",
+    "homepage": "https://gitee.com/rubick-center/rubick-host/raw/master/README.md",
+    "version": "2.0.3",
+    "pluginType": "ui"
   }
 ]

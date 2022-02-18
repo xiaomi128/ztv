@@ -10,6 +10,7 @@
   ],
   "recommend": [
     "rubick-hoppscotch-app",
+    "rubick-host",
     "rubick-ui-clipboard",
     "rubick-system-color-picker",
     "rubick-game-tank",
@@ -22,6 +23,7 @@
     "rubick-system-super-panel"
   ],
   "new": [
+    "rubick-host",
     "rubick-hoppscotch-app",
     "rubick-ui-clipboard",
     "rubick-system-color-picker",
