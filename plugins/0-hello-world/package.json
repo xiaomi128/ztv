@@ -1,0 +1,14 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "preload": "preload.js",
+  "name": "0-hello-world",
+  "pluginName": "hello world",
+  "description": "hello world",
+  "author": "alanuuu",
+  "version": "1.0"
+}

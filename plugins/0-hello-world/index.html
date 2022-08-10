@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 公共CSS库  -->
+    <link
+      href="http://devbit-static.oss-cn-beijing.aliyuncs.com/devbit-static/css/tailwind.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://devbit-static.oss-cn-beijing.aliyuncs.com/devbit-static/css/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- 公共JS库 -->
+    <script src="http://devbit-static.oss-cn-beijing.aliyuncs.com/devbit-static/js/vue.min.js"></script>
+
+    <div class="container mx-auto" id="app">
+      <h1 class="text-5xl font-extrabold text-gray-900 mt-3 text-center cursor-pointer" @click="add">{{text}}</h1>
+    </div>
+
+    <script>
+      const text =  'Hello World'
+      new Vue({
+        el: "#app",
+        data: {
+          text: text,
+          count: 0
+        },
+        created() {
+          typeof getPlatform === "function" && console.log(getPlatform())
+        },
+        methods: {
+          add() {
+            this.count++
+            this.text = text + this.count 
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
