@@ -22,5 +22,5 @@ version： 插件的版本 必填
 
 homePage: 插件 readme raw 地址
 
-pluginType: 插件类型，枚举：ui, system. 当前选 ui 必填
+pluginType: 插件类型，枚举：ui, system. 当前选 ui 必填 ( ui 为需要运行界面的插件 system 为系统插件 )
 
