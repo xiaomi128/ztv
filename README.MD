@@ -14,7 +14,7 @@ description： 插件描述，描述这个插件的作用 必填
 
 author： 插件作者
 
-entry： 入口文件，一般为 index.js
+main： 入口文件，一般为 index.html
 
 logo： 尺寸建议 200 * 200, 插件的 logo
 
