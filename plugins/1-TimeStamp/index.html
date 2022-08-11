@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+    <link rel="stylesheet" href="http://at.alicdn.com/t/c/font_3122584_zgd9pk5pirp.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <title>时间戳转换工具</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .box {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background-color: #ee774c;
+      }
+      #convertBox {
+        position: relative;
+        width: 600px;
+        height: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        /* border: 1px solid; */
+        border-radius: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 6px 25px 0 rgb(0 21 41 / 12%);
+      }
+      #convertBox .logo {
+        font-size: 30px;
+        margin-right: 100px;
+      }
+      #result:hover {
+        cursor: default;
+      }
+      .nav {
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+      .nav2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .datePickBox {
+        display: flex;
+        align-items: center;
+      }
+      .btn {
+        background-color: #ee774c;
+        color: #f8f7f9;
+        font-weight: 550;
+      }
+      .btn:hover {
+        background-color: #ee774c;
+        color: #f8f7f9;
+      }
+      .panel {
+        width: 480px;
+        height: 0px;
+        visibility: hidden;
+        transition: height 0.2s linear;
+      }
+      .panel1 {
+        height: 40px;
+        line-height: 40px;
+      }
+      .panel2 {
+        height: 0;
+      }
+      .dropdown-menu li {
+        height: 30px;
+        line-height: 30px;
+      }
+      .dropdown-menu li:hover {
+        background-color: #ee774c;
+        cursor: pointer;
+      }
+
+      #hms {
+        display: none;
+      }
+      .panel-body {
+        padding: 0px 0px 0px 5px;
+        margin: 0px;
+      }
+      #panelSpan {
+        height: 30px;
+        cursor: pointer;
+      }
+      .iconfont {
+        font-size: 18px;
+      }
+      .transform1,
+      .transform2 {
+        color: #ee774c;
+        margin-left: 3px;
+        margin-right: 3px;
+      }
+      #fulltimeToUnix{
+        display: none;
+      }
+      .icon-csdn1 {
+        color: #fc5430;
+      }
+      .currentUnix {
+        cursor: pointer;
+      }
+      #addhms {
+        text-decoration: none;
+        cursor: pointer;
+        color: #ee774c;
+      }
+      .btn:focus,
+      .btn:active:focus,
+      .btn.active:focus,
+      .btn.focus,
+      .btn:active.focus,
+      .btn.active.focus {
+        outline: none;
+        background-color: #ee774c;
+        color: #f8f7f9;
+      }
+      .pause {
+        margin-left: 5px;
+        cursor: pointer;
+      }
+      /* 去除outline */
+      input.form-control:focus {
+        border: 1px solid #fc5430;
+        -webkit-box-shadow: none;
+      }
+      :focus-visible {
+        outline: none;
+      }
+      .reset {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .reset button {
+        font-size: 16px;
+        background-color: #3d3b38;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div id="convertBox">
+        <div class="nav">
+          <span class="iconfont icon-csdn1 logo"><a style="font-size: 22px; color: #fc5430">猿如意转换</a></span>
+          <span style="font-size: 20px; color: #fc5430"></span>
+        </div>
+        <!-- 时间戳->时间 -->
+        <div id="currentUnix">
+          <span><strong>当前时间戳：</strong></span>
+          <span class=""></span>
+          <span class="iconfont icon-zanting pause" id="pause"></span>
+        </div>
+
+        <h4>
+          时间戳
+          <span class="iconfont icon-geshizhuanhuan transform1"></span>
+          时间
+        </h4>
+        <div>
+          <div class="input-group">
+            <input type="number" class="form-control" placeholder="输入要转换的时间戳" id="insertContent" />
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button" id="convertUnixtoTime">开始转换</button>
+            </span>
+          </div>
+          <div class="panel panel-default" id="panel1">
+            <div class="panel-body" id="showone">
+              <span id="panelSpan" data-toggle="tooltip" data-placement="top" title="点击复制"></span>
+            </div>
+          </div>
+          <!-- /input-group -->
+        </div>
+
+        <!--时间转时间戳  -->
+        <div>
+          <div class="nav2">
+            <h4>
+              时间
+              <span class="iconfont icon-geshizhuanhuan transform2"></span>
+              时间戳
+            </h4>
+            <div class="datePickBox">
+              <input type="date" name="bdaytime" id="datePicker" value="" />
+              <a id="addhms">
+                <span class="iconfont icon-jia" style="font-size: 14px"></span>
+                添加时/分/秒
+              </a>
+              <input type="time" value="00:00:00" name="bdaytime1" step="1" id="hms" />
+              <button id="fulltimeToUnix" class="btn btn-default">转换</button>
+              <button id="timeToUnix"  class="btn btn-default" style="display: block;">转换日期</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="转换结果将显示在此处" id="result" disabled data-toggle="tooltip" data-placement="top" title="点击复制按钮以复制" />
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button" id="copy">复制</button>
+            </span>
+          </div>
+          <div class="reset">
+            <button class="btn btn-default" id="resetbtn">
+              <span class="iconfont icon-zhongzhi" style="font-size: 14px"></span>
+              重置数据
+            </button>
+          </div>
+
+          <!-- /input-group -->
+        </div>
+      </div>
+    </div>
+    <script src="./preload.js"></script>
+  </body>
+</html>
