@@ -1,13 +1,11 @@
 {
-  "name": "rubick-ui-plugin-demo",
+  "name": "TimeStamp",
   "pluginName": "时间戳转换",
   "description": "一款开发必备的时间戳转换工具",
   "author": "gsj",
   "main": "index.html",
   "logo": "https://s1.ax1x.com/2022/08/10/v3yrrV.png",
   "version": "0.0.1",
-  "preload": "preload.js",
-  "homePage": "https://gitee.com/rubick-center/rubick-ui-plugin-demo/raw/master/README.md",
   "pluginType": "ui",
   "features": [
     {
