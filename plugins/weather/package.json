@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "weather",
+  "pluginName": "和风天气",
+  "description": "基于和风天气生成天气插件",
+  "author": "alanuuu",
+  "version": "1.0"
+}
