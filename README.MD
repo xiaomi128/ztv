@@ -1,7 +1,7 @@
 # 猿如意插件
 
 猿如意插件仓库，欢迎大家贡献代码。
-
+开发文档：https://rubickcenter.github.io/rubick/dev/#%E6%8F%92%E4%BB%B6%E8%AF%B4%E6%98%8E
 #### package.json
 
 用于指定插件最基础的配置，一个最基础的配置信息如下：
