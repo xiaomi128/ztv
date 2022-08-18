@@ -4,9 +4,11 @@
 开发文档：https://rubickcenter.github.io/rubick/dev/#%E6%8F%92%E4%BB%B6%E8%AF%B4%E6%98%8E
 
 ### 公共资源
-jquery: http://cdn-static-devbit.csdn.net/devbit-static/js/jquery-3.3.1.min.js
-vue: http://cdn-static-devbit.csdn.net/devbit-static/js/vue.min.js
-tailwind.css: http://cdn-static-devbit.csdn.net/devbit-static/css/tailwind.min.css
+- jquery: http://cdn-static-devbit.csdn.net/devbit-static/js/jquery-3.3.1.min.js
+
+- vue: http://cdn-static-devbit.csdn.net/devbit-static/js/vue.min.js
+
+- tailwind.css: http://cdn-static-devbit.csdn.net/devbit-static/css/tailwind.min.css
 #### package.json
 
 用于指定插件最基础的配置，一个最基础的配置信息如下：
