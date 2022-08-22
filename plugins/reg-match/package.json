@@ -1,5 +1,5 @@
 {
-    "name": "RegMatch",
+    "name": "reg-match",
     "pluginName": "正则表达式验证",
     "description": "一个在线的正则表达式验证工具",
     "author": "yym",
