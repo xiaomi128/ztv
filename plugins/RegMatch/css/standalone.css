@@ -1,0 +1,119 @@
+body {
+	min-width: 820px;
+	min-height: 100vh;
+	padding: .8em;
+	box-sizing: border-box;
+	font: 220% Futura, sans-serif;
+	text-shadow: 0 -.05em .1em rgba(0,0,0,.6);
+}
+
+kbd {
+	position: relative;
+	display: inline-block;
+	min-width: 1em;
+	padding: .2em;
+	border: 1px solid rgba(0,0,0,.2);
+	margin: 0 .1em;
+	background: hsl(30,20%,25%) url(../img/noise.png);
+	line-height: 1;
+	border-radius: .2em;
+	box-shadow: 0 1px hsla(0,0%,100%,.15) inset,
+	            1px 1px hsl(30,20%,20%), 2px 2px hsl(30,20%,18%), 3px 3px hsl(30,20%,16%),
+	            3px 3px 10px rgba(0,0,0,.5);
+	text-align: center;
+	transition-duration: .3s;
+	transition-property: box-shadow, transform;
+}
+
+kbd + kbd {
+	z-index: 1;
+}
+
+dfn:hover kbd,
+dfn:focus kbd {
+	transform: translate(-1px, -1px);
+	box-shadow: 0 1px hsla(0,0%,100%,.2) inset,
+	            1px 1px hsl(30,20%,20%), 2px 2px hsl(30,20%,18%), 3px 3px hsl(30,20%,16%), 4px 4px hsl(30,20%,15%),
+	            4px 4px 10px rgba(0,0,0,.5);
+}
+
+dfn:active kbd {
+	transform: translate(3px, 3px);
+	box-shadow: 1px 1px hsl(30,20%,14%) inset, 2px 2px hsl(30,20%,16%) inset, 3px 3px hsl(30,20%,18%) inset,
+	            4px 4px 10px rgba(0,0,0,.5) inset;
+}
+
+aside {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+section.help {
+	position: relative;
+	display: inline-block;
+	max-width: 10em;
+	padding: .3em;
+	margin: 2em .3em .3em;
+	text-align: left;
+	font-size: 90%;
+	line-height: 2;
+	border: 1px solid hsl(30,20%,25%);
+	border-radius: .5em;
+	box-shadow: 1px 1px 1px hsla(0,0%,100%,.15), 1px 1px 1px hsla(0,0%,100%,.15) inset;
+	white-space: normal;
+	vertical-align: bottom;
+}
+
+@media (max-width: 900px) {
+	section.help {
+		font-size: 140%;
+	}
+}
+
+#cheatsheet {
+	line-height: 1.1;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+	section.help h1 {
+		width: 100%;
+		margin: -1.35em 0 .3em;
+		font-size: 120%;
+		line-height: 1;
+	}
+
+	dfn {
+		display: inline-block;
+		cursor: help;
+		margin: 0 .1em;
+		outline: none;
+		white-space: nowrap;
+	}
+
+	#cheatsheet dfn {
+		min-width: 2.4em;
+		margin: .2em;
+		border-radius: .25em;
+		background: rgba(0,0,0,.2);
+		text-align: center;
+		font: 55%/2 Consolas, Monaco, monospace;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3) inset;
+	}
+
+	#cheatsheet dfn.long {
+		min-width: 5.4em;
+	}
+
+@media (max-width: 1200px) {
+	aside {
+		flex-flow: column;
+	}
+
+	#cheatsheet {
+		margin-top: 3em;
+	}
+}
