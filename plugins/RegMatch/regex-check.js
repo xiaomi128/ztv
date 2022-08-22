@@ -2,9 +2,9 @@
 fontSize = (function () {
     var sizes = []
 
-    sizes[9] = 360
-    sizes[11] = 340
-    sizes[13] = 290
+    sizes[9] = 300
+    sizes[11] = 270
+    sizes[13] = 230
     sizes[20] = 200
     sizes[40] = 100
 
