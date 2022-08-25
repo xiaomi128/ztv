@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "emoj",
+  "pluginName": "emoj表情",
+  "description": "emoj表情合集,提供丰富的表情",
+  "author": "alanuuu",
+  "version": "1.0.0"
+}
