@@ -6,7 +6,7 @@
   },
   "pluginType": "ui",
   "name": "url-decode",
-  "pluginName": "url编码解码",
+  "pluginName": "URL编码解码",
   "description": "URL编码解码 UrlEncode And UrlDecode",
   "author": "alanuuu",
   "version": "1.0.0"
