@@ -2,9 +2,12 @@
     "name": "reg-match",
     "pluginName": "正则表达式验证",
     "description": "一个在线的正则表达式验证工具",
+    "pluginSetting": {
+      "single": false
+    },
     "author": "yym",
     "main": "index.html",
-    "logo": "./img/logo.png",
+    "logo": "img/logo.png",
     "version": "0.0.1",
     "homePage": "https://github.com/seed30/RegMatch",
     "pluginType": "ui"
