@@ -25,6 +25,14 @@
     />
     <!-- 公共JS库 -->
     <script src="http://cdn-static-devbit.csdn.net/devbit-static/js/vue.min.js"></script>
+    <script>
+      // 解决jquery和electron模块不兼容问题
+      if (typeof module === "object") {
+        window.module = module;
+        module = undefined;
+      }
+    </script>
+    <script src="http://cdn-static-devbit.csdn.net/devbit-static/js/jquery-3.3.1.min.js"></script>
 
     <div class="container mx-auto" id="app">
       <h1 class="text-5xl font-extrabold text-gray-900 mt-3 text-center cursor-pointer" @click="add">{{text}}</h1>
