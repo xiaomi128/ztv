@@ -87,8 +87,9 @@
           })
         },
         keySearch(text) {
+          const type = this.sex === "M" ? 1 : 0
           fetch(
-            `https://api.lovelive.tools/api/SweetNothing/type/1/Keyword/${text}?genderType=${this.sex}`,
+            `https://api.lovelive.tools/api/SweetNothing/type/${type}/Keyword/${text}`,
             {
               mode: 'cors'
             }
