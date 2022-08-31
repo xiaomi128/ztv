@@ -9,7 +9,7 @@
   "pluginName": "恋爱修炼手册",
   "description": "恋爱修炼手册",
   "author": "alanuuu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "clipboard": "^2.0.11"
   }
