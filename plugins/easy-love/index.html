@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="http://cdn-static-devbit.csdn.net/devbit-static/css/tailwind.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://cdn-static-devbit.csdn.net/devbit-static/css/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="logo.png" type="image/png" />
+    <script src="http://cdn-static-devbit.csdn.net/devbit-static/js/vue.min.js"></script>
+    <script src="clipboard.min.js"></script>
+    <title>恋爱修炼手册</title>
+  </head>
+  <body>
+    <div id="app" class="container mx-auto text-center">
+      <h1
+        class="text-3xl leading-none font-extrabold tracking-tight mt-10 mb-6"
+      >
+        🌻 &nbsp;恋爱修炼手册
+      </h1>
+      <div class="btn-group flex justify-center">
+        <button :class="{'btn-active': sex==='M'}" class="btn btn-sm btn-primary btn-outline" @click="sex='M'">男生</button>
+        <button :class="{'btn-active': sex==='F'}" class="btn btn-sm btn-secondary btn-outline" @click="sex='F'">女生</button>
+      </div>
+      <div class="mt-6 mb-4">
+        <input
+          type="text"
+          placeholder="输入关键字搜索或者回车刷新"
+          class="input input-bordered input-secondary w-full max-w-3xl"
+          v-model="text"
+          @keyup.enter="onSearch"
+        />
+      </div>
+      <div class="text-left mx-auto max-w-3xl">
+        <div class="py-1 pl-1 hover:bg-gray-50 hover:text-pink-400" v-for="(v, i) in list" :key="i">
+          <span @click="showToast" :data-clipboard-text="v" class="copy align-middle text-sm cursor-pointer">{{v}}</s>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    new Vue({
+      el: "#app",
+      data() {
+        return {
+          list: [],
+          sex: "M",
+          text: "",
+        };
+      },
+      mounted() {
+        this.fetchData();
+        new ClipboardJS('.copy');
+      },
+      methods: {
+        showToast() {
+          rubick.showNotification("复制成功")
+        },
+        onSearch() {
+          const text = this.text.trim();
+          if(text.length > 0) {
+            this.keySearch(text)
+          } else {
+            this.fetchData();
+          }
+        },
+        fetchData() {
+          fetch(
+            `https://api.lovelive.tools/api/SweetNothings/Serialization/Json/10?genderType=${this.sex}`,
+            {
+              mode: 'cors'
+            }
+          )
+          .then(res => res.json())
+          .then((res) =>{
+            if(res.code === 200) {
+              this.list = res.returnObj;
+            }
+          })
+        },
+        keySearch(text) {
+          fetch(
+            `https://api.lovelive.tools/api/SweetNothing/type/1/Keyword/${text}?genderType=${this.sex}`,
+            {
+              mode: 'cors'
+            }
+          )
+          .then(res => res.json())
+          .then((res) =>{
+            if(res.code === 200) {
+              this.list = res.returnObj;
+            }
+          })
+        }
+      },
+    });
+    // https://api.lovelive.tools/api/SweetNothing/type/10/Keyword/123
+    // https://api.lovelive.tools/api/SweetNothings/Serialization/Json/10?genderType=M
+  </script>
+</html>

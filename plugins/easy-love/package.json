@@ -1,0 +1,16 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "easy-love",
+  "pluginName": "恋爱修炼手册",
+  "description": "恋爱修炼手册",
+  "author": "alanuuu",
+  "version": "1.0.0",
+  "dependencies": {
+    "clipboard": "^2.0.11"
+  }
+}
