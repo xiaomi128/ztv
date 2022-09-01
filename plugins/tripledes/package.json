@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "logo": "logo.jpeg",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "tripledes",
+  "pluginName": "加密解密-蜘蛛侠",
+  "description": "最全的在线加密解密工具:实现在线加密解密,sha加密,加密解密,在线工具,在线加密解密,文字在线加密解密,散列/哈希,BASE64,SHA1,SHA224,SHA256,SHA384,SHA512,MD5,HmacSHA1,HmacSHA224,HmacSHA256,HmacSHA384,HmacSHA512,HmacMD5,urlencode,urldecode加密",
+  "author": "alanuuu",
+  "version": "1.0.0"
+}

@@ -1,0 +1,573 @@
+@charset "UTF-8";
+html{
+    height: 100%;
+}
+html, body {
+    height: 100%;
+}
+body{
+  font-family:menlo,monospace, Tahoma,"微软雅黑","幼圆";
+  color: #4A5560;
+  --height:calc(1vh / 3);
+  --width:calc(1vw / 3);
+  --target: calc(var(--height) + var(--width));
+
+  font-size:13px;
+  height: 100%;
+}
+/*.common-font-size{
+  --height:calc(1vh / 3);
+  --width:calc(1vw / 3);
+  --target: calc(var(--height) + var(--width));
+  font-size: calc(var(--target) + 6px);
+}*/
+.common-font-size{ font-size:12px;
+
+}
+/*::-moz-selection {
+  background: #12c48b;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #12c48b;
+  color: #fff;
+  text-shadow: none;
+}*/
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+    font-family: monospace, Tahoma,'微软雅黑';
+}
+.green{
+    color:#17B272;
+}
+.red{
+    color:#FF585D;
+}
+.red:hover{
+    color: #f98280;
+}
+.blue{
+    color:#2caa9e;
+}
+.orange{
+  color:#FBC462;
+}
+.alert-danger{
+  background-color: #FFD8DB;
+  color: #1D3440;
+  box-shadow: 1px 1px 1px 1px #eee;
+}
+.alert .close{
+  color: #1D3440;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #47A7E6;
+}
+.label-success{
+    background-color: #0fd59d;
+}
+.header{
+    border-bottom: solid 1px #E5EBEE;
+    padding: 0px;
+}
+.logo{
+    --height:calc(1vh / 3);
+    --width:calc(1vw / 3);
+    --target: calc(var(--height) + var(--width));
+    font-size: calc(var(--target) + 12px);
+    text-decoration: none;
+    font-weight: bold;
+    color: #0fd59d;
+    padding: 10px;
+    font-family: Tahoma;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo:hover{
+    color: #0fd59d;
+}
+.navi{
+    padding: 5px 20px 5px 0;
+    font-weight:bold;
+}
+.navi a{
+    padding: 0px 20px 0 0;
+    color: #4A5560;
+}
+.json-src{
+    height:100%;min-height:550px;
+    background-color:#f6f6f6;padding:0 10px 10px 10px;
+    border:0;border-right:solid 1px #E5EBEE;border-bottom:solid 1px #eee;border-radius:0;
+    esize: none; outline:none;font-size:1.2vh;
+}
+.tool{
+    padding:10px;
+    height: 40px;
+    border-bottom:solid 1px #eee;
+    background-color:#fff;
+    width:100%;font-size:1.2vh;
+    z-index:100;
+}
+.tool a{
+    padding: 0px 8px;
+    color: #999;
+}
+.navi a:hover{
+    color: #888;
+}
+.load-gg {
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(100% - 350px);
+}
+
+.editor-con {
+    height: calc(100% - 150px);
+}
+.cus-footer{
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+.cus-footer footer{
+    text-align:center;
+    color:#aaa;
+    font-family: Tahoma,'微软雅黑';
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 0;
+}
+.cus-footer footer .copyright-link a{
+    margin: 0 10px;
+}
+.cus-footer footer .copyright-link {
+    margin-bottom: 5px;
+}
+.editor-con{
+    height: calc(100% - 125px);
+}
+.editor-con .numberedtextarea-wrapper{
+    height: 100%;
+}
+footer{margin-top: 1vh;font-size:calc(2px + 1vh);}
+
+/*新增*/
+.header-nav-list {
+    position: relative;
+}
+
+.header-nav-list .dropdown {
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}.custom-btn
+
+.header-nav-list .dropdown .custom-btn {
+    padding: 5px 10px;
+    margin-left: 0;
+}
+
+.header-nav-list .dropdown li.divider {
+    margin: 0;
+}
+
+.header-nav-list .dropdown li a {
+    padding: 8px 20px;
+}
+
+.shareJson{background: #2caa9e;color: #ffffff;padding: 2px 5px;border-radius: 5px;height: 20px;line-height: 20px;margin-left: 20px;}
+
+.custom-btn {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.custom-btn:hover {
+    color: #fff;
+    background-color: #2caa9e;
+}
+
+.custom-btn.active {
+    color: #fff;
+    background-color: #2caa9e;
+}
+
+#aceEditor {
+    width: 100%;
+    height: calc(100% - 50px);
+    border-bottom: 1px solid #eee;
+}
+
+#aceEditor2 {
+    height: calc(100% - 50px);
+    border-bottom: 1px solid #eee;
+}
+
+.custom-btn-group {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*jsobfuscate*/
+.obfuscate-box {
+    /*margin-top: 10px;*/
+    /*border-radius: 3px;*/
+    /*border: 1px solid #dddddd;*/
+    width: 50%;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #eee;
+}
+
+.obfuscate-box .tab-content {
+    /*padding: 15px;*/
+    height: 100%;
+}
+
+.obfuscate-box .tab-content .tab-pane {
+    height: 100%;
+}
+
+.obfuscate-box .editor-box2 {
+    margin-top: 0;
+    height: calc(100% - 92px);
+}
+
+.obfuscate-box .editor-box2 #editor4 {
+    height: 100%;
+}
+
+.obfuscate-box .editor-box2 #editor4 .CodeMirror {
+    height: 100%;
+}
+
+.obfuscate-box .editor-box2 #code4 {
+    height: 100%;
+    width: 100%;
+}
+
+.obfuscate-box .code-box {
+    position: relative;
+    height: calc(100% - 92px);
+}
+
+.obfuscate-box .nav-tabs > li > a {
+    border-radius: 0;
+}
+
+.obfuscate-box .code-box pre {
+    height: 200px;
+    border-radius: 3px;
+    overflow-y: auto;
+    margin-bottom: 0px;
+    height: 100%;
+    border: none;
+    white-space: normal;
+}
+
+.obfuscate-box .upload-js-file {
+    position: relative;
+    cursor: pointer;
+    height: calc(100% - 92px);
+}
+
+.obfuscate-box .upload-js-file input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    top: 0;
+    left: 0;
+}
+
+.obfuscate-box .upload-js-file .jsfile-mask {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border: 1px dashed #0fd59d;
+    text-align: center;
+    font-size: 16px;
+    line-height: 260px;
+}
+
+.obfuscate-box .upload-js-file .upload-drag-hover {
+    border-color: #38b03f;
+}
+
+.obfuscate-box {
+    position: relative;
+}
+
+#jsonlintBox {
+    position: absolute;
+    bottom: 42px;
+    left: 0;
+    z-index: 9;
+    display: none;
+    width: 100%;
+}
+
+#jsonlintBox i {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+#jsonlintBox pre {
+    border: none;
+    white-space: normal;
+}
+
+.json-warning pre {
+    background-color: rgba(255, 255, 0, .2);
+    color: #ff6c00;
+}
+
+.json-danger pre {
+    background-color: rgba(255, 0, 0, .2);
+    color: red;
+}
+
+.json-danger {
+    display: block !important;
+}
+
+.obfuscate-setting {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.obfuscate-setting > h4 {
+    margin-bottom: 0;
+}
+
+.obfuscate-setting h4 a {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.obfuscate-setting .setting-item {
+    margin-bottom: 10px;
+}
+
+.obfuscate-setting .setting-item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.obfuscate-setting .setting-item p {
+    margin: 15px 20px 9px 0;
+}
+
+.obfuscate-setting .setting-item .setting-opation {
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 label {
+    line-height: 1.7;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 > p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 hr {
+    margin: 10px 0 15px 0;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 .input-group {
+    padding-bottom: 5px;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 .input-group-addon:hover {
+    cursor: pointer;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 .label-box .label {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: grey;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 .label-box i {
+    padding-left: 5px;
+}
+
+.obfuscate-setting .setting-item2 .setting-type .setting-opation2 .label-box i:hover {
+    cursor: pointer;
+}
+
+.obfuscate-ins {
+    margin-top: 10px;
+}
+
+.obfuscate-ins .alert {
+    margin-bottom: 10px;
+}
+
+.obfuscate-ins th {
+    background-color: #f6f6f6 !important;
+}
+
+.obfuscate-ins td {
+    background-color: #ffffff !important;
+}
+
+.obfuscate-ins td .with-icon i {
+    font-size: 20px;
+    width: 20px !important;
+    display: inline-block;
+}
+
+.obfuscate-ins td .with-icon .content {
+    display: inline-block;
+}
+
+.obfuscate-ins table {
+    margin-bottom: 0;
+}
+
+.obfuscate-ins tbody {
+    border-radius: 3px;
+}
+
+#jsonBeanCon {
+    padding: 15px;
+    background-color: #eee;
+    height: 100%;
+    position: relative;
+}
+
+#jsonBeanCon:after {
+    position: absolute;
+    content: '生成实体类显示区域';
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    color: #ccc;
+    font-size: 16px;
+}
+
+#jsonBeanCon textarea {
+    resize: vertical;
+    min-height: 150px;
+    position: relative;
+    z-index: 9;
+}
+
+.pojo-box {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+.pojo-box .code-box{
+    height: 100%;
+}
+.pojo-box .code-box .prettyprint{
+    height: 100%;
+    border-radius: 0;
+    border-color: #eee;
+}
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{
+    padding-left: 1em;
+    background-color: transparent!important;
+    list-style-type: decimal!important;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.compare-editor {
+    height: 100%;
+}
+.compare-editor #view{
+    height: 100%;
+}
+.compare-editor .CodeMirror-merge, .compare-editor .CodeMirror-merge .CodeMirror, .compare-editor .CodeMirror-merge .CodeMirror-merge-pane{
+    height: 100%;
+}
+.compare-features{
+    text-align: center;
+    margin-top: 13px;
+}
+.compare-features .checkbox{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#dragEle{
+    height: 100%;
+    position: absolute;
+    width: 10px;
+    background: transparent;
+    left: 41.66666667%;
+    margin-left: -5px;
+    z-index: 999;
+    top: 0!important;
+    cursor: col-resize!important;
+}
+.editor-tip{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.drop-second-nav{
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.drop-second-nav .dropdown-menu{
+    left: auto;
+    right: 0;
+}
+.drop-second-nav li a{
+    font-size: 12px;
+}
+@media screen and (max-width: 1000px) {
+    .second-nav{
+        display: none;
+    }
+    .first-nav{
+        width: 100%;
+    }
+    .drop-second-nav{
+        display: block;
+    }
+}

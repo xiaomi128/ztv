@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0028)https://devbox.cn/jiamijiemi -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>
+      TripleDES加密解密-最全的在线加密解密工具
+    </title>
+    <meta
+      name="keywords"
+      content="加密,sha加密,加密解密,在线工具,在线加密解密,文字在线加密解密,散列,哈希,BASE64,SHA1,SHA224,SHA256,SHA384,SHA512,MD5,HmacSHA1,HmacSHA224,HmacSHA256,HmacSHA384,HmacSHA512,HmacMD5,urlencode,urldecode"
+    />
+    <meta
+      name="description"
+      content="最全的在线加密解密工具:实现在线加密解密,sha加密,加密解密,在线工具,在线加密解密,文字在线加密解密,散列/哈希,BASE64,SHA1,SHA224,SHA256,SHA384,SHA512,MD5,HmacSHA1,HmacSHA224,HmacSHA256,HmacSHA384,HmacSHA512,HmacMD5,urlencode,urldecode加密"
+    />
+    <link rel="stylesheet" href="./assets/main.css" type="text/css" />
+    <link href="./assets/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/font-awesome.min.css" rel="stylesheet" />
+    <link href="./assets/base.css" rel="stylesheet" />
+    <script src="./assets/hm.js"></script>
+  </head>
+  <body>
+
+    <style type="text/css">
+      .toolMain {
+        height: auto;
+        border: 0px solid #ddd;
+        margin: 0 auto;
+        margin-top: 25px;
+      }
+      .toolMain h1 {
+        font: 32px Arial, "微软雅黑", "宋体", sans-serif;
+        display: block;
+        height: 40px;
+        font-weight: bold;
+      }
+      .toolMain h2 {
+        font: 11pt Arial, "微软雅黑", "宋体", sans-serif;
+        display: block;
+        height: 30px;
+        color: #999;
+      }
+      .toolBox .toolBoxMain ul {
+        width: 100%;
+        height: auto;
+      }
+      .toolBox .toolBoxMain li {
+        width: 315px;
+        height: 60px;
+        border: 1px solid #ddd;
+        padding: 8px;
+        float: left;
+        margin: 8px;
+        background: #f6f6f6;
+      }
+
+      .btn-success {
+        background: #0a8cd2;
+        text-decoration: none;
+        color: #ffffff;
+        border: 1px solid #0a8cd2;
+      }
+
+    </style>
+    <div class="toolMain container" style="padding-bottom: 20px">
+
+      <div class="panel json-body">
+        <form id="form1" class="form-horizontal" method="post">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <textarea
+                onmouseover="this.focus();"
+                id="source"
+                name="source"
+                class="form-control"
+                rows="11"
+                style="max-height: 2222px"
+                placeholder="请把你需要加密/解密转换的内容粘贴在这里"
+              ></textarea>
+            </div>
+          </div>
+          <div class="form-group" id="p_div" style="display: none">
+            <div class="col-sm-12">
+              <input
+                class="form-control"
+                type="text"
+                id="pwd"
+                placeholder="请输入加密秘钥"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button
+                type="button"
+                class="btn btn-success"
+                id="encode"
+                name="encode"
+              >
+                UrlEncode
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                id="decode"
+                name="decode"
+              >
+                UrlDecode
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;SHA1&#39;);"
+              >
+                SHA1
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;SHA224&#39;);"
+              >
+                SHA224
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;SHA256&#39;);"
+              >
+                SHA256
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;SHA384&#39;);"
+              >
+                SHA384
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;SHA512&#39;);"
+              >
+                SHA512
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;RC4加密&#39;);"
+              >
+                RC4加密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;RC4解密&#39;);"
+              >
+                RC4解密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;MD5&#39;);"
+              >
+                MD5
+              </button>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;TripleDES加密&#39;);"
+              >
+                TripleDES加密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;TripleDES解密&#39;);"
+              >
+                TripleDES解密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;AES加密&#39;);"
+              >
+                AES加密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;SHA1&#39;);"
+              >
+                AES解密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;DES加密&#39;);"
+              >
+                DES加密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;DES解密&#39;);"
+              >
+                DES解密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;base64加密&#39;);"
+              >
+                base64加密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;base64解密&#39;);"
+              >
+                base64解密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;HmacMD5&#39;);"
+              >
+                HmacMD5
+              </button>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;HmacSHA1&#39;);"
+              >
+                HmacSHA1
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;HmacSHA224&#39;);"
+              >
+                HmacSHA224
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;HmacSHA256&#39;);"
+              >
+                HmacSHA256
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;HmacSHA384&#39;);"
+              >
+                HmacSHA384
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;HmacSHA512&#39;);"
+              >
+                HmacSHA512
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;Rabbit加密&#39;);"
+              >
+                Rabbit加密
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="hashecjson(&#39;Rabbit解密&#39;);"
+              >
+                Rabbit解密
+              </button>
+              <input
+                type="button"
+                onclick="empty();"
+                value="清空输入框"
+                class="btn btn-danger"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <textarea
+                onmouseover="this.focus();"
+                id="result"
+                name="result"
+                class="form-control"
+                rows="15"
+                style="max-height: 2222px"
+                placeholder="这里是加密/解密结果"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+    <script type="text/javascript" src="./assets/jq.js"></script>
+
+    <script src="./assets/jiami-aes.js" type="text/javascript"></script>
+    <script src="./assets/jiami-base64-min.js" type="text/javascript"></script>
+    <script src="./assets/jiami-md5.js" type="text/javascript"></script>
+    <script src="./assets/jiami-ripemd160.js" type="text/javascript"></script>
+    <script src="./assets/jiami-sha1.js" type="text/javascript"></script>
+    <script src="./assets/jiami-sha224.js" type="text/javascript"></script>
+    <script src="./assets/jiami-sha256.js" type="text/javascript"></script>
+    <script src="./assets/jiami-sha3.js" type="text/javascript"></script>
+    <script src="./assets/jiami-sha384.js" type="text/javascript"></script>
+    <script src="./assets/jiami-sha512.js" type="text/javascript"></script>
+    <script src="./assets/md5.js" type="text/javascript"></script>
+    <script src="./assets/pbkdf2.js" type="text/javascript"></script>
+    <script src="./assets/rabbit-legacy.js" type="text/javascript"></script>
+    <script src="./assets/rabbit.js" type="text/javascript"></script>
+    <script src="./assets/rc4.js" type="text/javascript"></script>
+    <script src="./assets/ripemd160.js" type="text/javascript"></script>
+    <script src="./assets/sha1.js" type="text/javascript"></script>
+    <script src="./assets/sha224.js" type="text/javascript"></script>
+    <script src="./assets/sha256.js" type="text/javascript"></script>
+    <script src="./assets/sha3.js" type="text/javascript"></script>
+    <script src="./assets/sha384.js" type="text/javascript"></script>
+    <script src="./assets/sha512.js" type="text/javascript"></script>
+    <script src="./assets/tripledes.js" type="text/javascript"></script>
+    <script src="./assets/allenc.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      (function () {
+        $("#encode").on("click", function () {
+          $("#result").val(encodeURIComponent($("#source").val()));
+        });
+        $("#decode").on("click", function () {
+          $("#result").val(decodeURIComponent($("#source").val()));
+        });
+      })();
+    </script>
+  </body>
+</html>
