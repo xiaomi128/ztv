@@ -1,0 +1,17 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "linux_command",
+  "pluginName": "Linux命令查询",
+  "description": "快速查询Linux命令",
+  "author": "aoaostar",
+  "version": "1.2.0",
+  "dependencies": {
+    "linux-command": "^1.11.2",
+    "markdown-it": "^13.0.1"
+  }
+}

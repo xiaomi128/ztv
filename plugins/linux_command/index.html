@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link
+      href="http://devbit-static.oss-cn-beijing.aliyuncs.com/devbit-static/css/tailwind.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://devbit-static.oss-cn-beijing.aliyuncs.com/devbit-static/css/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- 引入样式 -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/element-ui@2.15.7/lib/theme-chalk/index.css"
+    />
+    <!-- 引入组件库 -->
+    <script src="http://devbit-static.oss-cn-beijing.aliyuncs.com/devbit-static/js/vue.min.js"></script>
+    <script src="https://unpkg.com/element-ui@2.15.7/lib/index.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="./node_modules/markdown-it/dist/markdown-it.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="./lighlight/github.css"
+    />
+    <script src="https://cdn.staticfile.org/highlight.js/11.4.0/highlight.min.js"></script>
+    <style>
+      h1,
+      h2,
+      h5,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: bolder;
+      }
+
+      h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        margin: 0.75em 0;
+      }
+
+      h3 {
+        font-size: 1.17em;
+        margin: 0.83em 0;
+      }
+
+      h4 {
+        margin: 1.12em 0;
+      }
+
+      h5 {
+        font-size: 0.83em;
+        margin: 1.5em 0;
+      }
+
+      h6 {
+        font-size: 0.75em;
+        margin: 1.67em 0;
+      }
+
+      #detail pre {
+        white-space: pre-wrap;
+      }
+    </style>
+    <div class="container mx-auto" id="app">
+      <el-drawer :visible.sync="showDetail" :direction="'rtl'" size="80%">
+        <div class="text-left" id="detail" style="padding: 0 20px">
+          <span v-html="detail"></span>
+        </div>
+      </el-drawer>
+      <div class="card lg:card-side bordered shadow-lg">
+        <div class="card-body overflow-auto">
+          <div class="main">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">command</span>
+              </label>
+              <input
+                type="text"
+                v-model="set.input"
+                placeholder="alias"
+                class="input input-bordered"
+              />
+            </div>
+            <div class="overflow-x-auto mt-4" v-show="set.input">
+              <div class="font-bold">搜索结果（点击查看详情）</div>
+              <table class="table w-full mt-4">
+                <thead>
+                  <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    class="cursor-pointer hover"
+                    v-for="item in set.output"
+                    @click="preview(item)"
+                  >
+                    <td>{{commands[item].n}}</td>
+                    <td>{{commands[item].d}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var md = window.markdownit({
+        highlight: function (str, lang) {
+          if (lang && hljs.getLanguage(lang)) {
+            try {
+              return (
+                '<pre class="hljs p-4"><code>' +
+                hljs.highlight(str, { language: lang, ignoreIllegals: true })
+                  .value +
+                "</code></pre>"
+              );
+            } catch (__) {}
+          }
+          return (
+            '<pre class="hljs p-4"><code>' +
+            md.utils.escapeHtml(str) +
+            "</code></pre>"
+          );
+        },
+        typographer: true,
+        html: true
+      });
+      new Vue({
+        el: "#app",
+        data: {
+          commands: {},
+          showDetail: false,
+          detail: "",
+          set: {
+            input: "",
+            output: []
+          }
+        },
+        created() {
+          this.getData();
+        },
+        watch: {
+          "set.input"() {
+            this.set.output = Object.keys(this.commands).filter(command => {
+              return (
+                this.commands[command].n
+                  .toString()
+                  .toLowerCase()
+                  .indexOf(this.set.input.toLowerCase()) >= 0
+              );
+            });
+          }
+        },
+        methods: {
+          getData() {
+            axios("https://cdn-static-devbit.csdn.net/devbit-static/plugin/linux-command/dist/data.json")
+              .then(res => {
+                this.commands = res.data;
+              })
+              .catch(e => {
+                $message.error(`获取数据失败，请刷新页面重试 ${e}`);
+              });
+          },
+          preview(command) {
+            let loading = this.$loading({
+              lock: true,
+              text: "Loading",
+              spinner: "el-icon-loading",
+              background: "rgba(0, 0, 0, 0.7)"
+            });
+            axios(
+              `https://cdn-static-devbit.csdn.net/devbit-static/plugin/linux-command/command/${command}.md`
+            )
+              .then(res => {
+                let result = md.render(res.data);
+                this.detail = result;
+                this.showDetail = true;
+                // Swal.fire({
+                //   html: `<div class="text-left">${result}</div>`,
+                //   showCloseButton: true,
+                //   showConfirmButton: false,
+                //   width: "100%"
+                // });
+              })
+              .catch(e => {
+                // $message.error(`获取数据失败，请重试 ${e}`);
+              })
+              .finally(() => {
+                loading.close();
+              });
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
