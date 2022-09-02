@@ -37,6 +37,8 @@ homePage: 插件 readme raw 地址
 
 pluginType: 插件类型，枚举：ui, system. 当前选 ui 必填 ( ui 为需要运行界面的插件 system 为系统插件 )
 
+preload: 预加载文件。可以直接node、electron相关代码；
+
 ### 开发调试
 
 1. 打开 “猿如意” 客户端。在搜索框输入 "adddevmenu", 回车；
