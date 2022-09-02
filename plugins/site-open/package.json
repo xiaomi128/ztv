@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "logo": "logo.jpeg",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "system",
+  "name": "site-open",
+  "pluginName": "网页快开",
+  "description": "网站快开，自带翻译功能",
+  "author": "alanuuu",
+  "version": "1.0.0"
+}

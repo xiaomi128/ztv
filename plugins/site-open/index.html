@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var url = "";
+      var timer = null;
+      var reg =
+        /^(https?:\/\/)?(([a-zA-Z0-9_-])+(\.)?)*(:\d+)?(\/((\.)?(\?)?=?&?[a-zA-Z0-9_-](\?)?)*)*$/i;
+      rubick.onPluginEnter(({ code, type, payload }) => {
+        rubick.setSubInput(({ text }) => {
+          url = text;
+        }, "请在输入框输入需要打开网址");
+        window.rubick.hooks.onInputFocusChange();
+      });
+      document.addEventListener("keydown", (e) => {
+        console.log(e)
+        if (e.keyCode == 13) {
+          enterText(url);
+        }
+      });
+      function enterText(text) {
+        if (reg.test(text)) {
+          if(text.startsWith("http")) {
+            window.open(text);
+          } else {
+            window.open("https://" + text)
+          }
+        } else {
+          rubick.showNotification("格式不正确");
+        }
+      }
+    </script>
+  </body>
+</html>
