@@ -1,0 +1,16 @@
+{
+  "main": "node_modules/vcrontab/dist/index.html",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "crontab",
+  "pluginName": "定时任务-cron",
+  "description": "支持解析/反解析 cron 表达式，生成最近五次的符合条件时间",
+  "author": "alanuuu",
+  "version": "1.0.0",
+  "dependencies": {
+    "vcrontab": "^0.3.5"
+  }
+}
