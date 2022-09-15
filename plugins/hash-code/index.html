@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hash-code</title>
+    <link
+      href="http://cdn-static-devbit.csdn.net/devbit-static/css/tailwind.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <link
+      href="http://cdn-static-devbit.csdn.net/devbit-static/css/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="http://cdn-static-devbit.csdn.net/devbit-static/js/vue.min.js"></script>
+    <style>
+      html,
+      body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mx-auto pt-28 text-center" id="app">
+      <h1 class="text-3xl mb-6">Hash Code</h1>
+      <div>
+        <input
+          v-model="str"
+          type="text"
+          class="input input-bordered input-primary w-full max-w-3xl" />
+        <button class="btn" @click="encode">转化</button>
+      </div>
+      <div class="text-3xl mt-6">{{code}}</div>
+    </div>
+  </body>
+  <script>
+    function java_hashcode(str) {
+      if (typeof str === "object") {
+        str = JSON.stringify(str);
+      }
+      var h = 0;
+      var len = str.length;
+      var off = 0;
+      for (var i = 0; i < len; i++) {
+        h = 31 * h + str.charCodeAt(off++);
+        /*
+         *         * Cast to first 32 bits
+         *                * Warning: only works for Big endian numbers
+         */
+        h = h & 0xffffffff;
+      }
+      return h;
+    }
+
+    new Vue({
+      el: "#app",
+      data() {
+        return {
+          str: '',
+          code: ''
+        }
+      },
+      methods: {
+        encode() {
+          this.code = java_hashcode(this.str.trim())
+        }
+      }
+    })
+  </script>
+</html>

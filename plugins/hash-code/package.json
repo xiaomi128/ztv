@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "logo": "logo.jpeg",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "hash-code",
+  "pluginName": "Hash Code",
+  "description": "HashCode把任意长度的输入（又叫做预映射， pre-maping），通过散列算法，变换成固定长度的输出，该输出就是散列值。",
+  "author": "alanuuu",
+  "version": "1.0.0"
+}
