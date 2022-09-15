@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "logo": "logo.jpeg",
+  "pluginSetting": {
+    "single": false
+  },
+  "pluginType": "ui",
+  "name": "diff",
+  "pluginName": "Diff-文件内容比较",
+  "description": "文件内容比较, 对比差异，万物皆可比较",
+  "author": "alanuuu",
+  "version": "1.0.0"
+}

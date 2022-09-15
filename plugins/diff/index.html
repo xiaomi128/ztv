@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>文件代码 Diff</title>
+    <link rel="stylesheet" href="./static/main.css" type="text/css" />
+    <link href="./static/bootstrap.min.css" rel="stylesheet" />
+    <link href="./static/font-awesome.min.css" rel="stylesheet" />
+    <link href="./static/base.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./static/docs.css" />
+    <link rel="stylesheet" href="./static/codemirror.css" />
+    <link rel="stylesheet" href="./static/merge.css" />
+    <script src="./static/codemirror.js"></script>
+    <script src="./static/xml.js"></script>
+    <script src="./static/css.js"></script>
+    <script src="./static/javascript.js"></script>
+    <script src="./static/htmlmixed.js"></script>
+    <script src="./static/diff_match_patch.js"></script>
+    <script src="./static/merge.js"></script>
+    <style>
+      .toolMain {
+        width: 1120px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px 0;
+      }
+      .toolMain h1 {
+        font: 28px Arial, "微软雅黑", "宋体", sans-serif;
+        display: block;
+        height: 40px;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+      .toolMain .btbox {
+        width: 300px;
+        height: 36px;
+        margin: 0px auto;
+        text-align: center;
+      }
+
+      .content {
+        width: 96%;
+        height: auto;
+        border: 0px solid #ddd;
+        padding-bottom: 10px;
+        margin: 0 auto;
+      }
+      .intext {
+        display: block;
+        width: 48%;
+        height: 550px;
+        float: left;
+        background: #f0f0f0;
+        padding: 1%;
+      }
+    </style>
+  </head>
+
+  <body style="background: #ffffff">
+    <div class="toolMain">
+      <h1 style="text-align: center">Diff - 文件内容比较工具</h1>
+      <div class="btbox" style="text-align: center">
+        <input
+          type="button"
+          value="开始比较"
+          onclick="diff();"
+          class="btn btn-primary" />
+        <input
+          type="button"
+          value="刷新"
+          onclick="reload();"
+          class="btn btn-secondary"
+          style="margin-left: 15px" />
+      </div>
+    </div>
+
+    <div style="width: 98%; height: auto; margin: 0 auto; clear: both">
+      <div class="content">
+        <textarea name="left" id="left" class="intext" style="background: #fff">
+变动后的文件</textarea
+        >
+        <textarea
+          name="right"
+          id="right"
+          class="intext"
+          style="margin-left: 3%; background: #ffffe0">
+变动前的文件</textarea
+        >
+        <div style="clear: both"></div>
+      </div>
+      <div id="view"></div>
+      <div>
+        <script
+          language="javascript"
+          type="text/javascript"
+          charset="utf-8"
+          src="./static/jq.js"></script>
+        <script type="text/javascript">
+          var value,
+            orig1,
+            orig2,
+            dv,
+            panes = 2,
+            highlight = true,
+            connect = null,
+            collapse = false;
+
+          function diff() {
+            value = $("#left").val();
+            orig1 = $("#right").val();
+            orig2 = $("#right").val();
+            $(".content").css("display", "none");
+            initUI();
+          }
+
+          function reload() {
+            window.location.reload();
+          }
+
+          function initUI() {
+            if (value == null) return;
+            var target = document.getElementById("view");
+            target.innerHTML = "";
+            dv = CodeMirror.MergeView(target, {
+              value: value,
+              origLeft: panes == 3 && !collapse && !connect ? orig1 : null,
+              orig: orig2,
+              lineNumbers: true,
+              mode: "text/html",
+              highlightDifferences: highlight,
+              connect: connect,
+              collapseIdentical: collapse,
+              theme: "monokai",
+            });
+          }
+
+          function toggleDifferences() {
+            dv.setShowDifferences((highlight = !highlight));
+          }
+
+          window.onload = function () {
+            //value='请输入新内容';
+            //orig1 = '请输入原内容';
+            //orig2='orig2';
+            //initUI();
+          };
+
+          function mergeViewHeight(mergeView) {
+            function editorHeight(editor) {
+              if (!editor) return 0;
+              return editor.getScrollInfo().height;
+            }
+            return Math.max(
+              editorHeight(mergeView.leftOriginal()),
+              editorHeight(mergeView.editor()),
+              editorHeight(mergeView.rightOriginal())
+            );
+          }
+
+          function resize(mergeView) {
+            var height = mergeViewHeight(mergeView);
+            for (;;) {
+              if (mergeView.leftOriginal())
+                mergeView.leftOriginal().setSize(null, height);
+              mergeView.editor().setSize(null, height);
+              if (mergeView.rightOriginal())
+                mergeView.rightOriginal().setSize(null, height);
+
+              var newHeight = mergeViewHeight(mergeView);
+              if (newHeight >= height) break;
+              else height = newHeight;
+            }
+            mergeView.wrap.style.height = height + "px";
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
