@@ -1,0 +1,23 @@
+{
+"作者": "JMG0910",
+"站名": "素白白",
+
+"图片代理": "1",
+"数组": "<li>&&</li>",
+"标题": "alt=\"&&\"",
+"副标题": "<span class=\"qb\">&&<h3 class=\"dytit\">[替换:在*看>>空#豆瓣:>>空]",
+"搜索url": "https://www.subaibaiys.com/grabble?q={wd}f=_all&p={pg}",
+"搜索数组": "<li>&&</li>",
+"搜索标题": "alt=\"&&\"",
+"线路数组": "class=\"mi_paly_box\">&&</div>",
+"线路标题": ">&&<span>",
+"播放数组": "class=\"paly_list_btn\">&&</div>",
+"分类url": "https://www.subaibaiys.com/{cateId}/page/{catePg}",
+"分类": "电影$new-movie#电视剧$tv-drama#动画$movie_bt/movie_bt_tags/animation#纪录片$movie_bt/movie_bt_tags/documentary",
+"类型": "tv-drama--国产剧$domestic-drama#欧美剧$american-drama#韩剧$korean-drama",
+"剧情": "0",
+"地区": "0",
+"年份": "0",
+"排序": "0",
+"筛选": "1"
+}
