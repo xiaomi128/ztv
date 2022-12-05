@@ -1,7 +1,14 @@
 {
 "spider":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/1.jar;md5;d6a802d8dfe22f34635a6518caf8bde8",
 "wallpaper": "https://api.btstu.cn/sjbz/api.php",
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=https://cdn.staticaly.com/gh/xiaomi128/opp/main/aa.txt"]}]}],
+ "lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "https://raw.iqiq.io/xiaomi128/opp/main/aa.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    }
+  ],
 "sites": [
  {
       "key": "AList",
