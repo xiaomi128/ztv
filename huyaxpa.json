@@ -1,20 +1,7 @@
 {
 "spider":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/1.jar;md5;d6a802d8dfe22f34635a6518caf8bde8",
 "wallpaper": "https://api.btstu.cn/sjbz/api.php",
-"lives": [{
-      "name": "直播",
-      "type": 0,
-      "url": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/live.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-    },
-{
-"group": "redirect",
-		"channels": [{
-			"name": "live",
-	"urls": ["proxy://do=live&type=txt&ext="]
-    }],
-"epg":"http://epg.51zmt.top:8000/api/diyp/"
-}],
+"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9jZG4uc3RhdGljYWx5LmNvbS9naC94aWFvbWkxMjgvb3BwL21haW4vYWEubTN1"]}]}],
 "sites": [
  {
       "key": "AList",
