@@ -1,7 +1,7 @@
 {
 "spider":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/1.jar;md5;d6a802d8dfe22f34635a6518caf8bde8",
 "wallpaper": "https://api.btstu.cn/sjbz/api.php",
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cDovL3cuZzkucHViOjY2LzE1NDI4MzUzOS96dHYvbGl2ZS50eHQ="]}]}],
+"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=https://ghproxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/adult.txt"]}]}],
 	"sites": [
  {
       "key": "AList",
