@@ -1,15 +1,8 @@
 {
 "spider":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/1.jar;md5;d6a802d8dfe22f34635a6518caf8bde8",
 "wallpaper": "https://api.btstu.cn/sjbz/api.php",
- "lives": [
-    {
-      "name": "直播",
-      "type": 0,
-      "url": "https://raw.iqiq.io/xiaomi128/opp/main/aa.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-    }
-  ],
-"sites": [
+"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cDovL3cuZzkucHViOjY2LzE1NDI4MzUzOS96dHYvbGl2ZS50eHQ="]}]}],
+	"sites": [
  {
       "key": "AList",
       "name": "AList",
@@ -192,7 +185,23 @@
     "filterable": 1,
   "playerType":2,
   "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/bananxxx.json"},
+{
+      "key": "drpy_js_猫咪",
+      "name": "猫咪",
+      "type": 3,
+      "api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js",
+      "ext": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/%E8%B7%91TV.js"
+    },
   {
+    "key": "csp_xBPQ_右手",
+    "name":"右手影院",
+    "type": 3,
+    "api": "csp_xBPQ",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/yousxxx.json"},
+{
     "key": "csp_XYQHiker_水果派",
     "name":"水果派",
     "type": 3,
@@ -236,7 +245,7 @@
       "name": "猫了个咪[DRPY]",
       "type": 3,
      "playerType":2,
- "api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy.min.js",
+ "api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js",
       "ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/mlgmxxx.js"
     },
 {
@@ -244,7 +253,7 @@
       "name": "养端DRPY]",
       "type": 3,
       "playerType":2,
-"api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy.min.js",
+"api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js",
       "ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/yangdxxx.js"
     },
 {"key":"csp_XYQHiker_300分类","name":"300分类","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/csxxx.json"},
