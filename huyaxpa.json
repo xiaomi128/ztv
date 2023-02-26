@@ -1,5 +1,5 @@
 {
-"spider":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/1.jar;md5;e3526166d563812886317bd5f8e93c01",
+"spider":"https://gitee.com/sutv/opp/raw/master/1.jar;md5;e3526166d563812886317bd5f8e93c01",
 "wallpaper": "http://maoyingshi.cc/api.php",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/live.txt"]}]}],
 	"sites": [
@@ -10,7 +10,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "filterable": 1,
-      "ext": "9T$https://drive.9t.ee#木偶$https://www.kugutsu.ml","jar":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/2.jar;md5;60d9f2609ee273810e12879202418f61"
+      "ext": "9T$https://drive.9t.ee#木偶$https://www.kugutsu.ml"
     },
 {"key": "csp_xf_18t","name": "️18t","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"playerType":2,"ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/18t.json"},
 {"key": "csp_xf_18av","name": "️18av","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 0,"playerType":2,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/18AV.json"},
@@ -34,7 +34,7 @@
     "filterable": 1,
     "playerType":2,
    "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/daxiangjxxx.json"},
-{"api":"csp_Hsck","ext":"https://www.javsee.men/","filterable":0,"key":"csp_Hsck","name":"黄色仓库(爬虫)","quickSearch":1,"searchable":1,"playerType":2,"type":3,"jar":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/xxx.jar;md5;dde04006f7a3369ed6c7637163dd5dd2"},
+{"api":"csp_Hsck","ext":"https://www.javsee.men/","filterable":0,"key":"csp_Hsck","name":"黄色仓库(爬虫)","quickSearch":1,"searchable":1,"playerType":2,"type":3,"jar":"https://gitee.com/sutv/opp/raw/master/xxx.jar;md5;dde04006f7a3369ed6c7637163dd5dd2"},
  {"key":"csp_xBPQ_左临右射","name":"左临右射","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/zuolys.json"},
 {"key":"csp_xBPQ_掏爱撸","name":"掏爱撸","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/taoailu.json"},
  {"key":"csp_xBPQ_聚优中文资源","name":"聚优中文资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyzwxxx.json"},
