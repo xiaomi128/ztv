@@ -7,7 +7,7 @@
       "key": "AList",
       "name": "AList",
       "type": 3,
-      "api": "csp_AList",
+      "api": "csp_Alist",
       "searchable": 1,
       "filterable": 1,
       "ext": "9T$https://drive.9t.ee#木偶$https://www.kugutsu.ml"
