@@ -1,7 +1,13 @@
 {
 "spider":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/1.jar;md5;e3526166d563812886317bd5f8e93c01",
 "wallpaper": "http://maoyingshi.cc/api.php",
-"lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/adult.txt"]}]}],
+"lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/adult.txt" 
+        }
+    ],
 	"sites": [
  {
       "key": "AList",
@@ -35,7 +41,15 @@
     "playerType":2,
    "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/daxiangjxxx.json"},
 {"api":"csp_Hsck","ext":"https://www.javsee.men/","filterable":0,"key":"csp_Hsck","name":"黄色仓库(爬虫)","quickSearch":1,"searchable":1,"playerType":2,"type":3,"jar":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/xxx.jar"},
- {
+ {"key":"csp_xBPQ_左临右射","name":"左临右射","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/zuolys.json"},
+{"key":"csp_xBPQ_掏爱撸","name":"掏爱撸","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/taoailu.json"},
+ {"key":"csp_xBPQ_聚优中文资源","name":"聚优中文资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyzwxxx.json"},
+{"key":"csp_xBPQ_聚优超清资源","name":"聚优超清资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juycqxxx.json"},
+{"key":"csp_xBPQ_聚优国产传媒","name":"聚优国产传媒","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juygcxxx.json"},
+{"key":"csp_xBPQ_聚优久久热资源","name":"聚优久久热资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyjjrxxx.json"},
+{"key":"csp_xBPQ_聚优废柴网资源","name":"聚优废柴网资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyfcxxx.json"},
+{"key":"csp_xBPQ_聚优AV解说","name":"聚优AV解说","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyjsxxx.json"},
+{
     "key": "csp_xBPQ_聚优直播",
     "name":"聚优直播",
     "type": 3,
@@ -45,36 +59,6 @@
     "filterable": 1,
    "playerType":2,
     "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyou.json"},
- {
-    "key": "csp_xBPQ_精东影业",
-    "name":"精东影业",
-    "type": 3,
-    "api": "csp_xBPQ",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "playerType":2,
-   "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/jingdong1.json"},
- {
-    "key": "csp_xBPQ_精东影视",
-    "name":"精东影视",
-    "type": 3,
-    "api": "csp_xBPQ",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "playerType":2,
-   "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/jingdong.json"},
- {
-    "key": "csp_xBPQ_黄瓜视频",
-    "name":"黄瓜视频",
-    "type": 3,
-    "api": "csp_xBPQ",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-  "playerType":2,
-  "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/huanggua.json"},
 {
     "key": "csp_xBPQ_床吧",
     "name":"床吧",
@@ -185,13 +169,7 @@
     "filterable": 1,
   "playerType":2,
   "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/bananxxx.json"},
-{
-      "key": "drpy_js_猫咪",
-      "name": "猫咪",
-      "type": 3,
-      "api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js",
-      "ext": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/%E8%B7%91TV.js"
-    },
+{"key":"drpy_js_黄瓜TV","name":"黄瓜TV","type":3,"api":"https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/huanggtv.js"},
   {
     "key": "csp_xBPQ_右手",
     "name":"右手影院",
@@ -201,25 +179,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/yousxxx.json"},
-{
-    "key": "csp_XYQHiker_水果派",
-    "name":"水果派",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-   "playerType":2,
- "ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/shuigpxxx.json"},
-{"key": "csp_XBi6699",
-  "name": "6699",
-  "type": 3,
-  "api": "csp_XBiubiu",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 0,
- "playerType":2,
- "ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/6699xxx.json"},
+
 {"key": "csp_XBiu中文无码",
   "name": "中文无码",
   "type": 3,
@@ -229,33 +189,6 @@
   "filterable": 0,
   "playerType":2,
 "ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/zwwmxxx.json"},
-{
-            "key": "csp_xb_国产传媒",
-            "name": "国产传媒",
-            "type": 3,
-            "api": "csp_XBiubiu",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 0,
-  "playerType":2,
-"ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/gccmxxx.json"
-        },
-{
-      "key": "drpy_js_猫了个咪",
-      "name": "猫了个咪[DRPY]",
-      "type": 3,
-     "playerType":2,
- "api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js",
-      "ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/mlgmxxx.js"
-    },
-{
-      "key": "drpy_js_养端",
-      "name": "养端DRPY]",
-      "type": 3,
-      "playerType":2,
-"api": "https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js",
-      "ext": "https://cdn.staticaly.com/gh/xiaomi128/opp/main/yangdxxx.js"
-    },
 {"key":"csp_XYQHiker_300分类","name":"300分类","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/csxxx.json"},
 {"key":"csp_biubiu_爱看影院","name":"爱看影院(XB)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/aikanxxx.json"},
 {"key": "*AIvin","name": "AIvin","type": 0,"playerType":2,"api": "http://lbapiby.com/api.php/provide/vod/at/xml"},
