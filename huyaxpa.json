@@ -64,7 +64,7 @@
 {"key":"csp_xBPQ_聚优国产传媒","name":"聚优国产传媒","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juygcxxx.json"},
 {"key":"csp_xBPQ_聚优久久热资源","name":"聚优久久热资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyjjrxxx.json"},
 {"key":"csp_xBPQ_聚优废柴网资源","name":"聚优废柴网资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyfcxxx.json"},
-{"key":"csp_xBPQ_聚优AV解说","name":"聚优AV解说","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyjsxxx.json"},
+{"key":"csp_xBPQ_聚优AV解说","name":"聚优AV解说","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.staticaly.com/gh/xiaomi128/opp/main/juyjsxxx.json","jar":"https://ghproxy.com/https://raw.githubusercontent.com/2hacc/TVBox/main/h/jar/h.jar;md5;0b16bf8519cc718a2835c1db55a961ea"},
 {
     "key": "csp_xBPQ_聚优直播",
     "name":"聚优直播",
