@@ -9,16 +9,7 @@
     }
   ],
 	"sites": [
- {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "9T$https://drive.9t.ee#木偶$https://abnormalize.icu/","jar":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/2.jar;md5;60d9f2609ee273810e12879202418f61"
-    },
-{"key":"直播","name":"AV点播","type":3,"playerType":1,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zhibo.js","ext":"AV壹$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/live.txt#AV贰$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/av.txt&&&https://api.caonm.net/api/mc/"},
+{"key":"直播","name":"AV点播","type":3,"playerType":1,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zhibo.js","ext":"🈲AV壹$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/live.txt#㊙️AV贰$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/av.txt&&&https://api.caonm.net/api/mc/"},
 {"key": "csp_xf_18av","name": "️18av","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 0,"playerType":2,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zipai.json"},
 {
     "key": "csp_XYQHiker_猫咪",
@@ -416,6 +407,15 @@
       "filterable": 0
     },
 {"key":"csp_qiepian_ASMR","name":"ASMR(qp)","type":1,"api":"http://www.asmr19.in/api.php/provide/vod/","searchable":1,"quickSearch":1},
+ {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "filterable": 1,
+      "ext": "9T$https://drive.9t.ee#木偶$https://abnormalize.icu/","jar":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/2.jar;md5;60d9f2609ee273810e12879202418f61"
+    },
 {
       "key": "push_agent",
       "name": "推送",
