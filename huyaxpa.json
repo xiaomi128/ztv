@@ -10,17 +10,7 @@
   ],
 	"sites": [
 {"key":"直播","name":"AV点播","type":3,"playerType":1,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zhibo.js","ext":"🈲AV壹$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/live.txt#㊙️AV贰$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/av.txt#🆑AV叁$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/AV3.txt#🈴AV肆$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/AV4.txt&&&https://api.caonm.net/api/mc/"},
-{"key": "csp_xf_18av","name": "️18av","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 0,"playerType":2,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zipai.json"},
-{
-    "key": "csp_XYQHiker_猫咪",
-    "name":"猫咪",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-   "playerType":2,
-   "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/wuma.json"},
+{"key":"drpy_js_18av","name":"18av","type":3,"api":"https://agit.ai/weigs/w/raw/branch/master/lib/drpy.min.js","ext":"https://agit.ai/weigs/w/raw/branch/master/666/18av.js"},
 {
     "key": "csp_XYQHiker_大香蕉",
     "name":"大香蕉",
