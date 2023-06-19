@@ -9,12 +9,12 @@
     }
   ],
 	"sites": [
-{"key":"AV点播","name":"AV点播","type":3,"playerType":1,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zhibo.js","ext":"🔞AV壹$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/k7.txt#🈲AV贰$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/live.txt#㊙️AV叁$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/av.txt#🆑AV肆$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/AV3.txt#🈴AV伍$https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/AV4.txt&&&https://jihulab.com/susu88/ztv/-/raw/master/tu/88.png"},
+ {"key":"Live2CMS","name":"AV点播","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zhibo.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/avmv.json"},
 {
       "key": "成人点播",
       "name": "成人点播",
       "type": 3,
-      "api": "https://go.owen10086.repl.co/upload/cshi/点歌.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zhibo.js",
       "ext":"https://go.owen10086.repl.co/upload/cshi/点歌.txt"
        },
 {
