@@ -14,12 +14,12 @@
 "key": "csp_Alist",
 "name": "🅿Alist┃网盘",
 "type": 3,
-"api": "csp_Alist",
+"api": "csp_AList",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
 "changeable": 1,
-"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/Alist.json","jar":"http://w.g9.pub:66/f/BBBps8/xyq.jar;md5;64548c10040d1bef5723e6629dce5e92"
+"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/Alist.json","jar":"http://w.g9.pub:66/f/Z6zxUQ/fm0803.jar;md5;04cfe6ba366acf7e94a7d44795fc0bc3"
 },
 {
      "key":"简写|模板1",
