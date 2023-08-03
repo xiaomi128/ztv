@@ -9,7 +9,7 @@
     }
   ],
 	"sites": [
- {"key":"Live2CMS","name":"AV点播","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zhibo.js","searchable":2,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/avmv.json"},
+{"key": "路飞转点播","name": "AV点播","type": 3,"playerType":1,"api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js","ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfmv.txt"},
 {
 "key": "csp_Alist",
 "name": "🅿Alist┃网盘",
@@ -19,7 +19,7 @@
 "quickSearch": 1,
 "filterable": 1,
 "changeable": 1,
-"ext": "9t#https://drive.9t.ee"
+"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/Alist.json"
 },
 {
      "key":"简写|模板1",
