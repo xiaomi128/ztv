@@ -9,7 +9,14 @@
     }
   ],
 	"sites": [
-{"key": "路飞转点播","name": "AV点播","type": 3,"playerType":1,"api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js","ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfmv.txt"},
+{"key": "路飞转点播","name": "AV点播","type": 3,"api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js","ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfmv.txt"},
+{
+      "key": "成人点播",
+      "name": "成人点播",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js",
+      "ext":"https://go.owen10086.repl.co/upload/cshi/点歌.txt"  
+    },
 {
 "key": "csp_Alist",
 "name": "🅿Alist┃网盘",
