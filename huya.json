@@ -1,20 +1,20 @@
 {
-"spider":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/1.jar;md5;e3526166d563812886317bd5f8e93c01",
+"spider":"https://fongmi.cachefly.net/xiaomi128/opp/main/1.jar;md5;e3526166d563812886317bd5f8e93c01",
 "wallpaper": "https://tool.weetai.cn/api",
  "lives": [
     {
       "name": "直播",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/live.txt"
+      "url": "https://fongmi.cachefly.net/xiaomi128/opp/main/live.txt"
     }
   ],
 	"sites": [
-{"key": "路飞转点播","name": "AV点播","type": 3,"api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js","ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfmv.txt"},
+{"key": "路飞转点播","name": "AV点播","type": 3,"api": "https://fongmi.cachefly.net/xiaomi128/opp/main/lfzhibo.js","ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/lfmv.txt"},
 {
       "key": "成人点播",
       "name": "成人点播",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js",
+      "api": "https://fongmi.cachefly.net/xiaomi128/opp/main/lfzhibo.js",
       "ext":"https://go.owen10086.repl.co/upload/cshi/点歌.txt"  
     },
 {
@@ -26,7 +26,7 @@
 "quickSearch": 1,
 "filterable": 1,
 "changeable": 1,
-"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/Alist.json","jar":"http://w.g9.pub:66/f/Z6zxUQ/fm0803.jar;md5;04cfe6ba366acf7e94a7d44795fc0bc3"
+"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/Alist.json","jar":"http://w.g9.pub:66/f/Z6zxUQ/fm0803.jar;md5;04cfe6ba366acf7e94a7d44795fc0bc3"
 },
 {
      "key":"简写|模板1",
@@ -52,15 +52,15 @@
     "quickSearch": 1,
     "filterable": 1,
     "playerType":2,
-   "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/daxiangjxxx.json"},
-{"api":"csp_Hsck","ext":"https://www.javsee.men/","filterable":0,"key":"csp_Hsck","name":"黄色仓库","quickSearch":1,"searchable":1,"playerType":2,"type":3,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/xxx.jar;md5;dde04006f7a3369ed6c7637163dd5dd2"},
+   "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/daxiangjxxx.json"},
+{"api":"csp_Hsck","ext":"https://www.javsee.men/","filterable":0,"key":"csp_Hsck","name":"黄色仓库","quickSearch":1,"searchable":1,"playerType":2,"type":3,"jar":"https://fongmi.cachefly.net/xiaomi128/opp/main/xxx.jar;md5;dde04006f7a3369ed6c7637163dd5dd2"},
  {"key": "路飞磁力","name": "磁力(仅搜索)","type": 3,"api": "https://fongmi.cachefly.net/xiaomi128/opp/main/cili.js","ext": "18+"},
 {"key":"csp_xBPQ_左临右射","name":"左临右射","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/zuolys.json"},
-{"key":"csp_xBPQ_掏爱撸","name":"掏爱撸","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/taoailu.json"},
-{"key":"csp_xBPQ_聚优国产传媒","name":"聚优国产传媒","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/juygcxxx.json"},
-{"key":"csp_xBPQ_聚优久久热资源","name":"聚优久久热资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/juyjjrxxx.json"},
-{"key":"csp_xBPQ_聚优废柴网资源","name":"聚优废柴网资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/juyfcxxx.json"},
-{"key":"csp_xBPQ_聚优AV解说","name":"聚优AV解说","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/juyjsxxx.json"},
+{"key":"csp_xBPQ_掏爱撸","name":"掏爱撸","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/taoailu.json"},
+{"key":"csp_xBPQ_聚优国产传媒","name":"聚优国产传媒","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/juygcxxx.json"},
+{"key":"csp_xBPQ_聚优久久热资源","name":"聚优久久热资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/juyjjrxxx.json"},
+{"key":"csp_xBPQ_聚优废柴网资源","name":"聚优废柴网资源","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/juyfcxxx.json"},
+{"key":"csp_xBPQ_聚优AV解说","name":"聚优AV解说","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/juyjsxxx.json"},
 {
     "key": "csp_xBPQ_聚优直播",
     "name":"聚优直播",
@@ -70,7 +70,7 @@
     "quickSearch": 1,
     "filterable": 1,
    "playerType":2,
-    "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/juyou.json"},
+    "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/juyou.json"},
 {
     "key": "csp_xBPQ_床吧",
     "name":"床吧",
@@ -80,7 +80,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "playerType":2,
-    "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/chuangba.json"},
+    "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/chuangba.json"},
 {
     "key": "csp_xBPQ_床吧搜索",
     "name":"床吧搜索",
@@ -90,7 +90,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "playerType":2,
-    "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/cbssxxx.json"},
+    "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/cbssxxx.json"},
 {
     "key": "csp_xBPQ_叫床吧",
     "name":"叫床吧",
@@ -100,7 +100,7 @@
     "quickSearch": 1,
     "filterable": 1,
      "playerType":2,
-     "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/jiaocb.json"},
+     "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/jiaocb.json"},
  {
     "key": "csp_xBPQ_avid",
     "name":"avid",
@@ -110,7 +110,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "playerType":2,
-"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/avid.json"},
+"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/avid.json"},
  {
     "key": "csp_xBPQ_麻豆女优",
     "name":"麻豆女优",
@@ -120,7 +120,7 @@
     "quickSearch": 1,
     "filterable": 1,
    "playerType":2,
- "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/madou1.json"},
+ "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/madou1.json"},
  {
     "key": "csp_xBPQ_天天直播",
     "name":"天天直播",
@@ -130,7 +130,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "playerType":2,
-"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/ttzb.json"},
+"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/ttzb.json"},
  {
     "key": "csp_xBPQ_天天综合",
     "name":"天天综合",
@@ -140,7 +140,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "playerType":2,
-"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/ttzh.json"},
+"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/ttzh.json"},
  {
     "key": "csp_xBPQ_西瓜",
     "name":"西瓜",
@@ -150,7 +150,7 @@
     "quickSearch": 1,
     "filterable": 1,
    "playerType":2,
- "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/xjsp.json"},
+ "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/xjsp.json"},
  {
     "key": "csp_xBPQ_麻豆映画",
     "name":"麻豆映画",
@@ -160,17 +160,17 @@
     "quickSearch": 1,
     "filterable": 1,
    "playerType":2,
- "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/yinghua.json"},
-{"key":"csp_xBPQ_国产视频","name":"国产视频","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/gcspxxx.json"},
-{"key":"csp_xBPQ_精东影业","name":"精东影业","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/jdyyxxx.json"},
-{"key":"csp_xBPQ_精东影视","name":"精东影视","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/jdyy1xxx.json"},
-{"key":"csp_xBPQ_搞aa","name":"GAOAA","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/gaoaaxxx.json"},
-{"key":"csp_xBPQ_中文ZW","name":"中文ZM","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zwzmxxx.json"},
-{"key":"csp_xBPQ_四虎","name":"四虎影院","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/sihuxxx.json"},
-{"key":"csp_xBPQ_性欲轮回","name":"性欲轮回","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/xylhxxx.json"},
-{"key":"csp_xBPQ_性欲分类","name":"性欲轮回(分类)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/xylh1xxx.json"},
-{"key":"csp_xBPQ_av1","name":"av1","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/av1xxx.json"},
-{"key":"csp_xBPQ_麻豆映画2","name":"麻豆映画2","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/mdyhxxx.json"},
+ "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/yinghua.json"},
+{"key":"csp_xBPQ_国产视频","name":"国产视频","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/gcspxxx.json"},
+{"key":"csp_xBPQ_精东影业","name":"精东影业","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/jdyyxxx.json"},
+{"key":"csp_xBPQ_精东影视","name":"精东影视","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/jdyy1xxx.json"},
+{"key":"csp_xBPQ_搞aa","name":"GAOAA","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/gaoaaxxx.json"},
+{"key":"csp_xBPQ_中文ZW","name":"中文ZM","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/zwzmxxx.json"},
+{"key":"csp_xBPQ_四虎","name":"四虎影院","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/sihuxxx.json"},
+{"key":"csp_xBPQ_性欲轮回","name":"性欲轮回","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/xylhxxx.json"},
+{"key":"csp_xBPQ_性欲分类","name":"性欲轮回(分类)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/xylh1xxx.json"},
+{"key":"csp_xBPQ_av1","name":"av1","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/av1xxx.json"},
+{"key":"csp_xBPQ_麻豆映画2","name":"麻豆映画2","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/mdyhxxx.json"},
 {
     "key": "csp_xBPQ_bannan",
     "name":"bannan",
@@ -180,8 +180,8 @@
     "quickSearch": 1,
     "filterable": 1,
   "playerType":2,
-  "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/bananxxx.json"},
-{"key":"drpy_js_黄瓜TV","name":"黄瓜TV","type":3,"api":"https://cdn.staticaly.com/gh/xiaomi128/ztv/master/lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/huanggtv.js"},
+  "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/bananxxx.json"},
+{"key":"drpy_js_黄瓜TV","name":"黄瓜TV","type":3,"api":"https://fongmi.cachefly.net/xiaomi128/ztv/master/lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/huanggtv.js"},
   {
     "key": "csp_xBPQ_右手",
     "name":"右手影院",
@@ -190,7 +190,7 @@
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
-    "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/yousxxx.json"},
+    "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/yousxxx.json"},
 
 {"key": "csp_XBiu中文无码",
   "name": "中文无码",
@@ -200,9 +200,9 @@
   "quickSearch": 1,
   "filterable": 0,
   "playerType":2,
-"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/zwwmxxx.json"},
-{"key":"csp_XYQHiker_300分类","name":"300分类","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/csxxx.json"},
-{"key":"csp_biubiu_爱看影院","name":"爱看影院(XB)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/xiaomi128/opp/main/aikanxxx.json"},
+"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/zwwmxxx.json"},
+{"key":"csp_XYQHiker_300分类","name":"300分类","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/csxxx.json"},
+{"key":"csp_biubiu_爱看影院","name":"爱看影院(XB)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/aikanxxx.json"},
 {
       "key": "51smt4.xyz",
       "name": "51sm",
@@ -295,24 +295,10 @@
           "tag": "qb,tj",
           "categories": []
          }, 
-    {
-      "key": "*美少女",
-      "name": "*美少女",
-      "type": 0,
-      "api": "https://www.msnii.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
- {
-      "key": "*饮水机",
-      "name": "*饮水机",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+{"key": "msv ","name": "美少女 ","type": 0,"api": "https://www.msnii.com/api/xml.php ","searchable": 1,"changeable": 1},
+{"key": "ysj ","name": "饮水机 ","type": 0,"api": "https://www.xrbsp.com/api/xml.php ","searchable": 1,"changeable": 1},
+{"key": "bp ","name": "白嫖 ","type": 0,"api": "https://www.kxgav.com/api/xml.php ","searchable": 1,"changeable": 1},
+{"key": "hav ","name": "黄艾薇 ","type": 0,"api": "https://www.pgxdy.com/api/xml.php ","searchable": 1,"changeable": 1},
     {
       "key": "*奶插",
       "name": "*奶插",
@@ -368,7 +354,6 @@
       "type": 0,
       "api": "https://api.putaozy.net/inc/api.php"
     },
-{ "key": "KpgxdyE", "name": "黄AV资源(已修复)", "type": 0, "api": "https://www.pgxdy.com/api/xml.php", "searchable": 1, "quickSearch": 1, "filterable": 1 },
 { "key": "afasu", "name": "小湿妹资源(已修复)", "type": 0, "api": "https://www.afasu.com/api/xml.php", "searchable": 1, "quickSearch": 1, "filterable": 1 },
 { "key": "(18+)523资源", "name": "(18+)523资源", "type": 0, "api": "https://caiji.523zyw.com/inc/api.php", "searchable": 1, "quickSearch": 1, "filterable": 0 },
 { "key": "gdlsE", "name": "香奶儿资源", "type": 0, "api": "https://www.gdlsp.com/api/xml.php", "searchable": 1, "quickSearch": 1, "filterable": 1 },
@@ -376,12 +361,6 @@
  { "key": "(18+)大地资源", "name": "(18+)大地资源", "type": 0, "api": "https://dadiapi.com/api.php/", "searchable": 1, "quickSearch": 1, "filterable": 0 },
 { "key": "(18+)乐播", "name": "(18+)乐播", "type": 0, "api": "https://lbapi9.com/api.php/provide/vod/at/xml", "searchable": 1, "quickSearch": 1, "filterable": 0 },
 {"key":"色窝资源","name":"色窝资源","type":1,"api":"https://sewozyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
- {
-      "key": "*白嫖",
-      "name": "*白嫖",
-      "type": 0,
-      "api": "https://www.kxgav.com/api/xml.php"
-    },
     {
       "key": "*乐鱼",
       "name": "*乐鱼",
