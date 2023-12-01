@@ -32,7 +32,7 @@
      "key":"简写|模板1",
      "name":"女优",
      "type":3,
-     "api":"csp_XBPQ",
+     "api":"csp_xBPQ",
   "searchable":1,
      "quickSearch":1,
      "filterable":1,
@@ -326,7 +326,6 @@
       "quickSearch": 1,
       "filterable": 0
     },
-        { "key": "(18+)S猫资源", "name": "(18+)S猫资源", "type": 0, "api": "https://api.maozyapi.com/inc/api.php", "searchable": 1, "quickSearch": 1, "filterable": 0 },
     {
       "key": "bttcj",
       "name": "*博天堂",
