@@ -5,7 +5,7 @@
     {
       "name": "直播",
       "type": 0,
-      "url": "https://fongmi.cachefly.net/xiaomi128/opp/main/live.txt"
+      "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/xiaomi128/opp/main/live.txt"
     }
   ],
 	"sites": [
@@ -15,7 +15,7 @@
       "name": "成人点播",
       "type": 3,
       "api": "https://fongmi.cachefly.net/xiaomi128/opp/main/lfzhibo.js",
-      "ext":"https://go.owen10086.repl.co/upload/cshi/点歌.txt"  
+      "ext":"https://fongmi.cachefly.net/xiaomi128/opp/main/lfmv2.txt"  
     },
 {
 "key": "csp_Alist",
@@ -26,7 +26,7 @@
 "quickSearch": 1,
 "filterable": 1,
 "changeable": 1,
-"ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/Alist.json","jar":"http://w.g9.pub:66/f/Z6zxUQ/fm0803.jar;md5;04cfe6ba366acf7e94a7d44795fc0bc3"
+"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/xiaomi128/opp/main/Alist.json"
 },
 {
      "key":"简写|模板1",
