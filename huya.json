@@ -43,7 +43,7 @@
       "api": "csp_Doll",
       "searchable": 1,
       "recordable": 0,
-     "jar":"https://mirror.ghproxy.com/raw.githubusercontent.com/xiaomi128/opp/main/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
+     "jar":"https://cloud.lxweb.cn/f/LQxmiD/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
  "style": {
         "type": "rect",
         "ratio": 1.309
@@ -51,12 +51,12 @@
     },
 {
       "key": "Jable",
-      "name": "Jable",
+      "name": "Jable(仅搜索)",
       "type": 3,
       "api": "csp_Jable",
       "searchable": 1,
       "recordable": 0,
-    "jar":"https://mirror.ghproxy.com/raw.githubusercontent.com/xiaomi128/opp/main/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
+    "jar":"https://cloud.lxweb.cn/f/LQxmiD/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
       "style": {
         "type": "rect",
         "ratio": 1.77
@@ -69,7 +69,7 @@
       "api": "csp_Miss",
       "searchable": 1,
       "recordable": 0,
-    "jar":"https://mirror.ghproxy.com/raw.githubusercontent.com/xiaomi128/opp/main/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
+    "jar":"https://cloud.lxweb.cn/f/LQxmiD/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
       "style": {
         "type": "rect",
         "ratio": 1.78
@@ -82,7 +82,7 @@
       "api": "csp_Hanime",
       "searchable": 1,
       "recordable": 0,
-         "jar":"https://mirror.ghproxy.com/raw.githubusercontent.com/xiaomi128/opp/main/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
+         "jar":"https://cloud.lxweb.cn/f/LQxmiD/fm.jar;md5;55c157414346e3ff571baad0a223bf15",
  "style": {
         "type": "rect",
         "ratio": 0.68
