@@ -37,6 +37,7 @@
         "ratio": 1.485
       }
     },
+{"key":"drpy_js_18av","name":"18av(drpy)","type":3,"api":"https://external.githubfast.com/https/raw.githubusercontent.com/xiaomi128/opp/main/drpy2.min.js","ext":"https://mirror.ghproxy.com/raw.githubusercontent.com/xiaomi128/opp/main/18avv.js"},
     {
       "key": "玩偶姐姐",
       "name": "玩偶姐姐",
@@ -87,6 +88,22 @@
  "style": {
         "type": "rect",
         "ratio": 0.68
+      }
+    },
+{
+      "key": "aoo.qoqoavideo2.sbs",
+      "name": "qoqoavideo",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 2,
+      "searchable": 1,
+"jar": "https://tvbox.cainisi.cf/jar/XBPQ.jar;md5;c156ba7ce636a59c744e9a72bd5a8423",
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
+        "分类url": "https://w15o.qoqoavideo2.xyz/vodtype/{cateId}/page/{catePg}.html",
+        "分类": "中文字幕$154#国产情色$151#日本无码$162#动漫$150#国产传媒$146#少女萝莉$164"
       }
     },
 {"key":"字幕网","name":"字幕网","type":0,"api":"http://zmcj88.com/sapi?ac=videolist","searchable":1,"quickSearch":1},
