@@ -9,7 +9,7 @@
     }
   ],
 	"sites": [
-{"key": "路飞转点播","name": "AV点播","type": 3,"api": "https://ghproxy.net/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js","ext": "https://fongmi.cachefly.net/xiaomi128/opp/main/lfmv.txt"},
+{"key": "路飞转点播","name": "AV点播","type": 3,"api": "https://ghproxy.net/https://raw.githubusercontent.com/xiaomi128/opp/main/lfzhibo.js","ext": "https://ghproxy.net/https://raw.githubusercontent.com/xiaomi128/opp/main/lfmv.txt"},
 {"key":"drjs_ss直播","name":"ss直播","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/xiaomi128/opp/main/drpy2.min.js","ext":"https://ghproxy.net/https://raw.githubusercontent.com/xiaomi128/opp/main/sszb.js"},
 {
      "key":"简写|模板1",
